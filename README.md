@@ -1,4 +1,4 @@
-# PruebaE2E ⭐
+# PruebaE2EAPI ⭐
 This project was generated with Karate, Serenity bdd, Cucumber and Gherkin.
 
 1. Prerequisites: 📃
