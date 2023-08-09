@@ -4,8 +4,8 @@ This project was generated with Karate, Serenity bdd, Cucumber and Gherkin.
 1. Prerequisites: 📃
    -  Local Machine with OS Windows 10
    -  IDE IntelliJ version 2023.1.2
-   -  Gradle version 7.6.1 (must be added in environment variable)
-   -  JDK version 17 (must be added in environment variable)
+   -  Gradle version 7.6.1 (must be installed and added in environment variable)
+   -  JDK version 17 (must be installed and  added in environment variable)
 
 3. Instructions for running the tests: ✔️
    - Open IntelliJ
