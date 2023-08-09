@@ -15,19 +15,20 @@ This project was generated with Karate, Serenity bdd, Cucumber and Gherkin.
    
    **** EJECUTE TEST ****
 
-   -Open file ManagmentTest.java
-   -Click on right mouse button on page body
-   -Click on "Run ManagmentTest"
+   - Open file ManagmentTest.java
+   - Click on right mouse button on page body
+   - Click on "Run ManagmentTest"
    
    **** VIEW REPORTS ****
-   -View file on project files called "build"
-   -Click on "build" 
-   -Click on "Karate-reports"
-   -Click right mouse button on "karate-summary.html" and it will open the Karate report 
-   -View file on project files called "build"
-   -Click on "build" 
-   -Click on "cucumber-html-reports"
-   -Click right mouse button on "overview-failures.html" and it will open the Cucumber report 
+   
+   - View file on project files called "build"
+   - Click on "build" 
+   - Click on "Karate-reports"
+   - Click right mouse button on "karate-summary.html" and it will open the Karate report 
+   - View file on project files called "build"
+   - Click on "build" 
+   - Click on "cucumber-html-reports"
+   - Click right mouse button on "overview-failures.html" and it will open the Cucumber report 
 
 5. Additional Information: ➕
    - You can get dependencies and plugins for maven from here: https://acortar.link/YqzCDP
