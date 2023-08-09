@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4}];
+var items = [{"id":1,"group":1,"content":"api\/login\/login[1:15]","start":1691612050054,"end":1691612052818,"title":"api\/login\/login[1:15] 15:14:10.054-15:14:12.818 Login with a valid user","className":"failed"},{"id":2,"group":2,"content":"api\/login\/login[2:23]","start":1691612050054,"end":1691612052891,"title":"api\/login\/login[2:23] 15:14:10.054-15:14:12.891 Login with a wrong user"},{"id":3,"group":3,"content":"api\/login\/login[3:31]","start":1691612050054,"end":1691612052896,"title":"api\/login\/login[3:31] 15:14:10.054-15:14:12.896 Login with a wrong password"},{"id":4,"group":4,"content":"api\/login\/login[4:39]","start":1691612050055,"end":1691612052817,"title":"api\/login\/login[4:39] 15:14:10.055-15:14:12.817 Login without user and valid password"},{"id":5,"group":1,"content":"api\/login\/login[5:47]","start":1691612052840,"end":1691612053269,"title":"api\/login\/login[5:47] 15:14:12.840-15:14:13.269 Login without password and valid user"},{"id":6,"group":4,"content":"api\/login\/login[6:55]","start":1691612052833,"end":1691612053239,"title":"api\/login\/login[6:55] 15:14:12.833-15:14:13.239 Login with empty fields"},{"id":7,"group":2,"content":"api\/signUp\/signUp[1:14]","start":1691612052916,"end":1691612053404,"title":"api\/signUp\/signUp[1:14] 15:14:12.916-15:14:13.404 Signup a new user","className":"failed"},{"id":8,"group":3,"content":"api\/signUp\/signUp[2:21]","start":1691612052905,"end":1691612053331,"title":"api\/signUp\/signUp[2:21] 15:14:12.905-15:14:13.331 Signup a new user before created"},{"id":9,"group":4,"content":"api\/signUp\/signUp[3:28]","start":1691612053248,"end":1691612053665,"title":"api\/signUp\/signUp[3:28] 15:14:13.248-15:14:13.665 Signup a new user without password","className":"failed"},{"id":10,"group":1,"content":"api\/signUp\/signUp[4:35]","start":1691612053287,"end":1691612053735,"title":"api\/signUp\/signUp[4:35] 15:14:13.287-15:14:13.735 Signup a new user without username"},{"id":11,"group":3,"content":"api\/signUp\/signUp[5:42]","start":1691612053337,"end":1691612054019,"title":"api\/signUp\/signUp[5:42] 15:14:13.337-15:14:14.019 Signup a new user without params"},{"id":12,"group":2,"content":"api\/signUp\/signUp[6:49]","start":1691612053412,"end":1691612053771,"title":"api\/signUp\/signUp[6:49] 15:14:13.412-15:14:13.771 Valid a new user with 50 characters in username","className":"failed"},{"id":13,"group":4,"content":"api\/signUp\/signUp[7:56]","start":1691612053670,"end":1691612054028,"title":"api\/signUp\/signUp[7:56] 15:14:13.670-15:14:14.028 Valid a new user with 50 characters in password","className":"failed"},{"id":14,"group":1,"content":"api\/signUp\/signUp[8:63]","start":1691612053741,"end":1691612054227,"title":"api\/signUp\/signUp[8:63] 15:14:13.741-15:14:14.227 Valid a new user with 100 characters in username","className":"failed"},{"id":15,"group":2,"content":"api\/signUp\/signUp[9:70]","start":1691612053778,"end":1691612054182,"title":"api\/signUp\/signUp[9:70] 15:14:13.778-15:14:14.182 Valid a new user with 100 characters in password","className":"failed"},{"id":16,"group":3,"content":"api\/signUp\/signUp[10:77]","start":1691612054024,"end":1691612054383,"title":"api\/signUp\/signUp[10:77] 15:14:14.024-15:14:14.383 Signup a new user with special characteres","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

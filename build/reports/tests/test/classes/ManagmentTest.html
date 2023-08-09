@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ManagmentTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ManagmentTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; ManagmentTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">24.647s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testAll()"></a>
+<h3 class="failures">testAll()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg=='
+  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA=='
+
+classpath:api/login/login.feature:20
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:19
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:33
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:54
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:61
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:68
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:75
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:82 ==&gt; expected: &lt;0&gt; but was: &lt;8&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:542)
+	at app//ManagmentTest.testAll(ManagmentTest.java:20)
+	at java.base@17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@17/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at app//org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at app//org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at app//org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:110)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">testAll()</td>
+<td class="failures">24.647s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:14:05.601 [Test worker] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:14:11.293 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg1&quot;}
+
+15:14:11.295 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire123%&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+
+15:14:11.294 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 58
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+
+15:14:11.294 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 40
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+
+15:14:12.697 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1390
+1 &lt; 500
+1 &lt; Content-Type: text/html
+1 &lt; X-Cloud-Trace-Context: 98e9d4bcf31612a356d8afc9457674c5
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 290
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+
+
+15:14:12.752 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1453
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 45b8b5df090471d4d32dffc5b428936d
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+&quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg==&quot;
+
+
+15:14:12.752 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1453
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 0ee3807fa52a193985c2d5c80d1e7ad1
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;User does not exist.&quot;}
+
+
+15:14:12.753 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1457
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: ad62f6fea48ad4f49a13c73f4988a5cd
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+
+
+15:14:12.819 [pool-1-thread-1] ERROR com.intuit.karate - classpath:api/login/login.feature:20
+And match $ == &quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA==&quot;
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg=='
+  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA=='
+
+classpath:api/login/login.feature:20
+15:14:12.891 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;&quot;}
+
+15:14:12.893 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
+
+15:14:12.938 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 58
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+
+15:14:12.946 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 64
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlex123Freire%123as&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+
+15:14:13.231 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 336
+1 &lt; 500
+1 &lt; Content-Type: text/html
+1 &lt; X-Cloud-Trace-Context: 8545bafc330b21588cbb8c448260b101
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 290
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+
+
+15:14:13.254 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 51
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire147sasd&quot;,&quot;password&quot;:&quot;&quot;}
+
+15:14:13.258 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 367
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 28dbfd35abb0fea59ccb117b82374919
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+
+
+15:14:13.292 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 345
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 372be399c23333f0b7dd4067ed797cc4
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:13.296 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 40
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+
+15:14:13.327 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 385
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: f2d8765d7bb50f4576b0be9977080b5d
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:13.383 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
+
+15:14:13.386 [pool-1-thread-2] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:19
+And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:19
+15:14:13.419 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 91
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;qwastyuiop23df89jklñzxcvbnmqwertyuoipasdfghjklñ123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
+
+15:14:13.660 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 405
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: b1919b5d2b38ffa35bfbc205cf6d4590
+1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:13.665 [pool-1-thread-4] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:33
+And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:33
+15:14:13.679 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 91
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;as122354ag&quot;,&quot;password&quot;:&quot;qwertyu12pasdfghjklñasdvbnmqwertyuoipasdfghjklñzxc&quot;}
+
+15:14:13.729 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 432
+1 &lt; 500
+1 &lt; Content-Type: text/html
+1 &lt; X-Cloud-Trace-Context: 1cb169f65dec57f27ab492cf9fa83a84
+1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 290
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+
+
+15:14:13.762 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 341
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: fa02d0deb5fa98dea0254e62fcc59a6a
+1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:13.771 [pool-1-thread-2] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:54
+And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:54
+15:14:13.799 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 102
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;asfg2354%&amp;$1\/&quot;,&quot;password&quot;:&quot;q12rtyuiopasdfghjklñzxasdfmqwertyuoipasdfghjklñzxc&amp;%$124a&quot;}
+
+15:14:13.868 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 144
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;qwertyuioasddfgh12lñzxcvbnmqwertyuoipasdfghjklñzxcqwertyuiopasdfghjklñzxcvbnmqwertyuoipasdfghjklñz123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
+
+15:14:14.017 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 633
+1 &lt; 500
+1 &lt; Content-Type: text/html
+1 &lt; X-Cloud-Trace-Context: 7c7f7660fe54fcc10b6143693f3d7a6a
+1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 290
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+
+
+15:14:14.027 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 348
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: faf4bc8c712ab2229196455ba30f3cb7
+1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:14.029 [pool-1-thread-4] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:61
+And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:61
+15:14:14.055 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 108
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;asfasdg2354%&amp;$1&quot;,&quot;password&quot;:&quot;asd556wertyuiopasdfghjklñzxcvbnmqwertyuoipasdfghjklñzxc&amp;%$124a&quot;}
+
+15:14:14.174 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 374
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: a357136cd4a8dc06af356601f2902266
+1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:14.176 [pool-1-thread-2] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:75
+And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:75
+15:14:14.224 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 354
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: c1e1540a2994505855838f48a3528fba
+1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:14.227 [pool-1-thread-1] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:68
+And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:68
+15:14:14.380 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 323
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 16de1c4d0a258cda1f8e54ca7cc7ca47
+1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+15:14:14.383 [pool-1-thread-3] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:82
+And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:82
+---------------------------------------------------------
+feature: classpath:api/login/login.feature
+scenarios:  6 | passed:  5 | failed:  1 | time: 11,8252
+---------------------------------------------------------
+
+15:14:16.916 [pool-2-thread-1] INFO  com.intuit.karate.Suite - &lt;&lt;fail&gt;&gt; feature 1 of 2 (1 remaining) classpath:api/login/login.feature
+---------------------------------------------------------
+feature: classpath:api/signUp/signUp.feature
+scenarios: 10 | passed:  3 | failed:  7 | time: 4,3342
+---------------------------------------------------------
+
+15:14:17.770 [pool-2-thread-1] INFO  com.intuit.karate.Suite - &lt;&lt;fail&gt;&gt; feature 2 of 2 (0 remaining) classpath:api/signUp/signUp.feature
+Karate version: 1.2.0.RC5
+======================================================
+elapsed:  14,96 | threads:    4 | thread time: 16,16 
+features:     2 | skipped:    0 | efficiency: 0,27
+scenarios:   16 | passed:     8 | failed: 8
+======================================================
+&gt;&gt;&gt; failed features:
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg=='
+  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA=='
+
+classpath:api/login/login.feature:20
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:19
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:33
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:54
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:61
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:68
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:75
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+classpath:api/signUp/signUp.feature:82
+&lt;&lt;&lt;
+
+HTML report: (paste into browser to view) | Karate version: 1.2.0.RC5
+file:///C:/Users/bryan/OneDrive/Documentos/PruebaE2EAPIS/build/karate-reports/karate-summary.html
+===================================================================
+
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>ago 09, 2023 3:14:18 P. M. net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File 'C:\Users\bryan\OneDrive\Documentos\PruebaE2EAPIS\build\karate-reports\api.login.login.json' contains 1 features
+ago 09, 2023 3:14:18 P. M. net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File 'C:\Users\bryan\OneDrive\Documentos\PruebaE2EAPIS\build\karate-reports\api.signUp.signUp.json' contains 1 features
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0</a> at 9 ago 2023 15:14:23</p>
+</div>
+</div>
+</body>
+</html>

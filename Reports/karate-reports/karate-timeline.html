@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4}];
+var items = [{"id":1,"group":1,"content":"api\/login\/login[1:8]","start":1691604430109,"end":1691604456175,"title":"api\/login\/login[1:8] 13:07:10.109-13:07:36.175 Login with a valid user"},{"id":2,"group":2,"content":"api\/login\/login[2:16]","start":1691604430114,"end":1691604456175,"title":"api\/login\/login[2:16] 13:07:10.114-13:07:36.175 Login with a wrong user"},{"id":3,"group":3,"content":"api\/login\/login[3:24]","start":1691604430111,"end":1691604456178,"title":"api\/login\/login[3:24] 13:07:10.111-13:07:36.178 Login with a wrong password"},{"id":4,"group":4,"content":"api\/login\/login[4:32]","start":1691604430114,"end":1691604452782,"title":"api\/login\/login[4:32] 13:07:10.114-13:07:32.782 Login without user and valid password"},{"id":5,"group":4,"content":"api\/login\/login[5:39]","start":1691604452790,"end":1691604456175,"title":"api\/login\/login[5:39] 13:07:32.790-13:07:36.175 Login without password and valid user"},{"id":6,"group":1,"content":"api\/login\/login[6:47]","start":1691604456196,"end":1691604456572,"title":"api\/login\/login[6:47] 13:07:36.196-13:07:36.572 Login with empty fields"},{"id":7,"group":4,"content":"api\/signUp\/signUp[1:7]","start":1691604456192,"end":1691604456500,"title":"api\/signUp\/signUp[1:7] 13:07:36.192-13:07:36.500 Signup a new user"},{"id":8,"group":2,"content":"api\/signUp\/signUp[2:13]","start":1691604456183,"end":1691604456512,"title":"api\/signUp\/signUp[2:13] 13:07:36.183-13:07:36.512 Signup a new user before created"},{"id":9,"group":3,"content":"api\/signUp\/signUp[3:20]","start":1691604456185,"end":1691604456578,"title":"api\/signUp\/signUp[3:20] 13:07:36.185-13:07:36.578 Signup a new user without password"},{"id":10,"group":4,"content":"api\/signUp\/signUp[4:26]","start":1691604456508,"end":1691604456843,"title":"api\/signUp\/signUp[4:26] 13:07:36.508-13:07:36.843 Signup a new user without username"},{"id":11,"group":2,"content":"api\/signUp\/signUp[5:32]","start":1691604456517,"end":1691604456898,"title":"api\/signUp\/signUp[5:32] 13:07:36.517-13:07:36.898 Signup a new user without params"},{"id":12,"group":1,"content":"api\/signUp\/signUp[6:38]","start":1691604456578,"end":1691604456940,"title":"api\/signUp\/signUp[6:38] 13:07:36.578-13:07:36.940 Valid a new user with 50 characters in username"},{"id":13,"group":3,"content":"api\/signUp\/signUp[7:44]","start":1691604456587,"end":1691604456940,"title":"api\/signUp\/signUp[7:44] 13:07:36.587-13:07:36.940 Valid a new user with 50 characters in password"},{"id":14,"group":4,"content":"api\/signUp\/signUp[8:50]","start":1691604456849,"end":1691604457225,"title":"api\/signUp\/signUp[8:50] 13:07:36.849-13:07:37.225 Valid a new user with 100 characters in username"},{"id":15,"group":2,"content":"api\/signUp\/signUp[9:56]","start":1691604456905,"end":1691604457451,"title":"api\/signUp\/signUp[9:56] 13:07:36.905-13:07:37.451 Valid a new user with 100 characters in password"},{"id":16,"group":3,"content":"api\/signUp\/signUp[10:62]","start":1691604456944,"end":1691604457428,"title":"api\/signUp\/signUp[10:62] 13:07:36.944-13:07:37.428 Signup a new user with special characteres"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

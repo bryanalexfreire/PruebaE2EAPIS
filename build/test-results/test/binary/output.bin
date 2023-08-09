@@ -1,0 +1,498 @@
+_15:14:05.601 [Test worker] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+B15:14:11.293 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+)1 > POST https://api.demoblaze.com/login
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+<{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+B15:14:11.295 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+)1 > POST https://api.demoblaze.com/login
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+<{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+B15:14:11.294 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+)1 > POST https://api.demoblaze.com/login
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+;{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+B15:14:11.294 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+)1 > POST https://api.demoblaze.com/login
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+){"username":"","password":"asfghgdssdg"}
+
+]15:14:12.697 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1390
+1 < 500
+1 < Content-Type: text/html
+<1 < X-Cloud-Trace-Context: 98e9d4bcf31612a356d8afc9457674c5
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+)<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+�<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+]15:14:12.752 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1453
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 45b8b5df090471d4d32dffc5b428936d
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+3"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg=="
+
+
+]15:14:12.752 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1453
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 0ee3807fa52a193985c2d5c80d1e7ad1
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+({"errorMessage":"User does not exist."}
+
+
+]15:14:12.753 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1457
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: ad62f6fea48ad4f49a13c73f4988a5cd
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+#{"errorMessage":"Wrong password."}
+
+
+^15:14:12.819 [pool-1-thread-1] ERROR com.intuit.karate - classpath:api/login/login.feature:20
+BAnd match $ == "Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA=="
+match failed: EQUALS
+   $ | not equal (STRING:STRING)
+5  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg=='
+5  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA=='
+
+&classpath:api/login/login.feature:20
+B15:14:12.891 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+)1 > POST https://api.demoblaze.com/login
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+0{"username":"BryanAlexFreire123","password":""}
+
+B15:14:12.893 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+)1 > POST https://api.demoblaze.com/login
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+B15:14:12.938 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+;{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+B15:14:12.946 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+A{"username":"BryanAlex123Freire%123as","password":"asfghgdssdg"}
+
+\15:14:13.231 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 336
+1 < 500
+1 < Content-Type: text/html
+<1 < X-Cloud-Trace-Context: 8545bafc330b21588cbb8c448260b101
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+)<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+�<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+B15:14:13.254 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+4{"username":"BryanAlexFreire147sasd","password":""}
+
+\15:14:13.258 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 367
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 28dbfd35abb0fea59ccb117b82374919
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+#{"errorMessage":"Wrong password."}
+
+
+\15:14:13.292 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 345
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 372be399c23333f0b7dd4067ed797cc4
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+B15:14:13.296 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+){"username":"","password":"asfghgdssdg"}
+
+\15:14:13.327 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 385
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: f2d8765d7bb50f4576b0be9977080b5d
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+B15:14:13.383 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+`15:14:13.386 [pool-1-thread-2] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:19
+CAnd match response != {"errorMessage": "This user already exist."}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:19
+B15:14:13.419 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+\{"username":"qwastyuiop23df89jklñzxcvbnmqwertyuoipasdfghjklñ123","password":"sayfgb2387"}
+
+\15:14:13.660 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 405
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: b1919b5d2b38ffa35bfbc205cf6d4590
+(1 < Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+`15:14:13.665 [pool-1-thread-4] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:33
+CAnd match response != {"errorMessage": "This user already exist."}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:33
+B15:14:13.679 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+\{"username":"as122354ag","password":"qwertyu12pasdfghjklñasdvbnmqwertyuoipasdfghjklñzxc"}
+
+\15:14:13.729 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 432
+1 < 500
+1 < Content-Type: text/html
+<1 < X-Cloud-Trace-Context: 1cb169f65dec57f27ab492cf9fa83a84
+(1 < Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+)<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+�<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+\15:14:13.762 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 341
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: fa02d0deb5fa98dea0254e62fcc59a6a
+(1 < Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+`15:14:13.771 [pool-1-thread-2] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:54
+CAnd match response != {"errorMessage": "This user already exist."}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:54
+B15:14:13.799 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 102
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+g{"username":"asfg2354%&$1\/","password":"q12rtyuiopasdfghjklñzxasdfmqwertyuoipasdfghjklñzxc&%$124a"}
+
+B15:14:13.868 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+�{"username":"qwertyuioasddfgh12lñzxcvbnmqwertyuoipasdfghjklñzxcqwertyuiopasdfghjklñzxcvbnmqwertyuoipasdfghjklñz123","password":"sayfgb2387"}
+
+\15:14:14.017 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 633
+1 < 500
+1 < Content-Type: text/html
+<1 < X-Cloud-Trace-Context: 7c7f7660fe54fcc10b6143693f3d7a6a
+(1 < Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+)<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+�<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+\15:14:14.027 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 348
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: faf4bc8c712ab2229196455ba30f3cb7
+(1 < Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+`15:14:14.029 [pool-1-thread-4] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:61
+CAnd match response != {"errorMessage": "This user already exist."}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:61
+B15:14:14.055 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+*1 > POST https://api.demoblaze.com/signup
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 108
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+m{"username":"asfasdg2354%&$1","password":"asd556wertyuiopasdfghjklñzxcvbnmqwertyuoipasdfghjklñzxc&%$124a"}
+
+\15:14:14.174 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 374
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: a357136cd4a8dc06af356601f2902266
+(1 < Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+`15:14:14.176 [pool-1-thread-2] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:75
+CAnd match response != {"errorMessage": "This user already exist."}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:75
+\15:14:14.224 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 354
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: c1e1540a2994505855838f48a3528fba
+(1 < Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+`15:14:14.227 [pool-1-thread-1] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:68
+CAnd match response != {"errorMessage": "This user already exist."}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:68
+\15:14:14.380 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 323
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 16de1c4d0a258cda1f8e54ca7cc7ca47
+(1 < Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
+
+
+`15:14:14.383 [pool-1-thread-3] ERROR com.intuit.karate - classpath:api/signUp/signUp.feature:82
+CAnd match response != {"errorMessage": "This user already exist."}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:82
+:---------------------------------------------------------
++feature: classpath:api/login/login.feature
+8scenarios:  6 | passed:  5 | failed:  1 | time: 11,8252
+:---------------------------------------------------------
+
+�15:14:16.916 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:api/login/login.feature
+:---------------------------------------------------------
+-feature: classpath:api/signUp/signUp.feature
+7scenarios: 10 | passed:  3 | failed:  7 | time: 4,3342
+:---------------------------------------------------------
+
+�15:14:17.770 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:api/signUp/signUp.feature
+Karate version: 1.2.0.RC5
+8======================================================
+7elapsed:  14,96 | threads:    4 | thread time: 16,16 
+4features:     2 | skipped:    0 | efficiency: 0,27
+-scenarios:   16 | passed:     8 | failed: 8
+8======================================================
+>>> failed features:
+match failed: EQUALS
+   $ | not equal (STRING:STRING)
+5  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg=='
+5  'Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA=='
+
+%classpath:api/login/login.feature:20
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+'classpath:api/signUp/signUp.feature:19
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+'classpath:api/signUp/signUp.feature:33
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+'classpath:api/signUp/signUp.feature:54
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+'classpath:api/signUp/signUp.feature:61
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+'classpath:api/signUp/signUp.feature:68
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+'classpath:api/signUp/signUp.feature:75
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+.  {"errorMessage":"This user already exist."}
+.  {"errorMessage":"This user already exist."}
+
+(classpath:api/signUp/signUp.feature:82
+<<<
+
+FHTML report: (paste into browser to view) | Karate version: 1.2.0.RC5
+bfile:///C:/Users/bryan/OneDrive/Documentos/PruebaE2EAPIS/build/karate-reports/karate-summary.html
+D===================================================================
+
+ Tago 09, 2023 3:14:18 P. M. net.masterthought.cucumber.ReportParser parseJsonFiles
+ }INFO: File 'C:\Users\bryan\OneDrive\Documentos\PruebaE2EAPIS\build\karate-reports\api.login.login.json' contains 1 features
+ Tago 09, 2023 3:14:18 P. M. net.masterthought.cucumber.ReportParser parseJsonFiles
+ INFO: File 'C:\Users\bryan\OneDrive\Documentos\PruebaE2EAPIS\build\karate-reports\api.signUp.signUp.json' contains 1 features
