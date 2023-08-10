@@ -61,6 +61,10 @@ This project was generated with Karate, Serenity bdd, Cucumber and Gherkin.
 
 5. Additional Information: ➕
    - You can get dependencies and plugins for maven from here: https://acortar.link/YqzCDP
+   - In this repository there are 3 folder with evidence like postman files, conclusions.txt and reports of karate & cucumber
+
+     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/5169ef5e-2944-4e84-891b-c3090eda61d1)
+
 
 AUTOR 📍
 @BryanFreire
