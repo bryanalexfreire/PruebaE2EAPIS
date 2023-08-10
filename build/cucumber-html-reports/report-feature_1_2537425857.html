@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>PruebaE2EAPIS</td>
-      <td>09 ago 2023, 15:14</td>
+      <td>10 ago 2023, 11:53</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">api/signUp/signUp.feature</td>
-          <td      class="passed"    >73</td>
-          <td      class="failed"    >7</td>
+          <td      class="passed"    >80</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">80</td>
 
-          <td  class="passed"    >3</td>
-          <td  class="failed"    >7</td>
+          <td  class="passed"    >10</td>
+          <td >0</td>
           <td class="total">10</td>
 
-          <td class="duration" data-value="4334168200">4.334</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="4379170900">4.379</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">api/signUp/signUp.feature</span>
 
@@ -259,7 +259,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def path = 'signup'</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -337,12 +337,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.431</span>
+  <span class="lead-duration duration">0.438</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Signup a new user</span>
 
@@ -353,16 +353,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details  in ">
+  <div id="element-4" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -372,7 +372,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-5" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -380,7 +380,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -405,7 +405,7 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;BryanAlex123Freire%123as&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
+  <span class="name">request {&quot;username&quot;: &quot;B2ryanFreire%123as&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -434,7 +434,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.348</span>
+  <span class="lead-duration duration">0.436</span>
 
 </div>
 
@@ -452,26 +452,24 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details">
-        <pre>15:14:12.947 request:
+        <pre>11:53:17.198 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 64
+1 &gt; Content-Length: 58
 1 &gt; Host: api.demoblaze.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;BryanAlex123Freire%123as&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+{&quot;username&quot;:&quot;B2ryanFreire%123as&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-15:14:13.292 response time in milliseconds: 345
+11:53:17.631 response time in milliseconds: 433
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 372be399c23333f0b7dd4067ed797cc4
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: 02dafd4311eb5aba74482860b03c35d3
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+1 &lt; Content-Length: 3
+&quot;&quot;
 
 
 </pre>
@@ -516,11 +514,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
 
-  <span class="lead-duration duration">0.080</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -529,43 +527,9 @@ $(document).ready(function() {
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-7">
-          <a>match</a>
-      </div>
-      <div id="msg-7" class="collapse collapsable-details  in ">
-        <pre>match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:19</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-8" class="collapse collapsable-details">
-        <pre>15:14:13.387 classpath:api/signUp/signUp.feature:19
-And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
-match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:19
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -592,10 +556,10 @@ classpath:api/signUp/signUp.feature:19
 </div>
 
 
-  <span class="lead-duration duration">0.022</span>
+  <span class="lead-duration duration">0.002</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -608,14 +572,14 @@ classpath:api/signUp/signUp.feature:19
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details ">
+  <div id="element-7" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-10">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -627,7 +591,7 @@ classpath:api/signUp/signUp.feature:19
 
   </div>
 
-  <div id="steps-10" class="inner-level collapse collapsable-details ">
+  <div id="steps-8" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -635,7 +599,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">*</span>
   <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
 
-  <span class="lead-duration duration">0.018</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -662,7 +626,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">*</span>
   <span class="name">def path = 'signup'</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -689,7 +653,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">*</span>
   <span class="name">text error500 =</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -703,10 +667,10 @@ classpath:api/signUp/signUp.feature:19
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
           <a>Doc string</a>
       </div>
-      <div id="msg-11" class="collapse collapsable-details">
+      <div id="msg-9" class="collapse collapsable-details">
         <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
@@ -740,10 +704,10 @@ classpath:api/signUp/signUp.feature:19
 </div>
 
 
-  <span class="lead-duration duration">0.401</span>
+  <span class="lead-duration duration">0.366</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-12">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-10">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -756,14 +720,14 @@ classpath:api/signUp/signUp.feature:19
   </span>
   <div class="description indention"></div>
 
-  <div id="element-12" class="collapse collapsable-details ">
+  <div id="element-10" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -775,7 +739,7 @@ classpath:api/signUp/signUp.feature:19
 
   </div>
 
-  <div id="steps-13" class="inner-level collapse collapsable-details ">
+  <div id="steps-11" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -783,7 +747,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.006</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -837,7 +801,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.394</span>
+  <span class="lead-duration duration">0.363</span>
 
 </div>
 
@@ -851,11 +815,11 @@ classpath:api/signUp/signUp.feature:19
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
           <a>Doc string</a>
       </div>
-      <div id="msg-14" class="collapse collapsable-details">
-        <pre>15:14:12.942 request:
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>11:53:17.258 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 58
@@ -865,12 +829,12 @@ classpath:api/signUp/signUp.feature:19
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-15:14:13.328 response time in milliseconds: 385
+11:53:17.616 response time in milliseconds: 357
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: f2d8765d7bb50f4576b0be9977080b5d
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: 5bb9cdfb65805dbe60a4fa496c837e14
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -961,10 +925,10 @@ classpath:api/signUp/signUp.feature:19
 </div>
 
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.003</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -977,14 +941,14 @@ classpath:api/signUp/signUp.feature:19
   </span>
   <div class="description indention"></div>
 
-  <div id="element-15" class="collapse collapsable-details ">
+  <div id="element-13" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-16">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -996,7 +960,7 @@ classpath:api/signUp/signUp.feature:19
 
   </div>
 
-  <div id="steps-16" class="inner-level collapse collapsable-details ">
+  <div id="steps-14" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1031,7 +995,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">*</span>
   <span class="name">def path = 'signup'</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -1072,10 +1036,10 @@ classpath:api/signUp/signUp.feature:19
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
           <a>Doc string</a>
       </div>
-      <div id="msg-17" class="collapse collapsable-details">
+      <div id="msg-15" class="collapse collapsable-details">
         <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
@@ -1109,12 +1073,12 @@ classpath:api/signUp/signUp.feature:19
 </div>
 
 
-  <span class="lead-duration duration">0.415</span>
+  <span class="lead-duration duration">0.459</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-18">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-16">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Signup a new user without password</span>
 
@@ -1125,16 +1089,16 @@ classpath:api/signUp/signUp.feature:19
   </span>
   <div class="description indention"></div>
 
-  <div id="element-18" class="collapse collapsable-details  in ">
+  <div id="element-16" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-19">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-17">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1144,7 +1108,7 @@ classpath:api/signUp/signUp.feature:19
 
   </div>
 
-  <div id="steps-19" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-17" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1152,7 +1116,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1177,7 +1141,7 @@ classpath:api/signUp/signUp.feature:19
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;BryanAlexFreire147sasd&quot;, &quot;password&quot;: &quot;&quot;}</span>
+  <span class="name">request {&quot;username&quot;: &quot;Bryan2AlexFreire147sasd&quot;, &quot;password&quot;: &quot;&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -1206,7 +1170,7 @@ classpath:api/signUp/signUp.feature:19
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.412</span>
+  <span class="lead-duration duration">0.457</span>
 
 </div>
 
@@ -1220,30 +1184,28 @@ classpath:api/signUp/signUp.feature:19
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-20">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
           <a>Doc string</a>
       </div>
-      <div id="msg-20" class="collapse collapsable-details">
-        <pre>15:14:13.255 request:
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>11:53:17.538 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 51
+1 &gt; Content-Length: 52
 1 &gt; Host: api.demoblaze.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;BryanAlexFreire147sasd&quot;,&quot;password&quot;:&quot;&quot;}
+{&quot;username&quot;:&quot;Bryan2AlexFreire147sasd&quot;,&quot;password&quot;:&quot;&quot;}
 
-15:14:13.662 response time in milliseconds: 405
+11:53:17.991 response time in milliseconds: 452
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: b1919b5d2b38ffa35bfbc205cf6d4590
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: b2e43568c9b95dd95c39107ede200c17
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+1 &lt; Content-Length: 3
+&quot;&quot;
 
 
 </pre>
@@ -1288,11 +1250,11 @@ classpath:api/signUp/signUp.feature:19
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1301,43 +1263,9 @@ classpath:api/signUp/signUp.feature:19
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-21">
-          <a>match</a>
-      </div>
-      <div id="msg-21" class="collapse collapsable-details  in ">
-        <pre>match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:33</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-22" class="collapse collapsable-details">
-        <pre>15:14:13.666 classpath:api/signUp/signUp.feature:33
-And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
-match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:33
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -1364,10 +1292,10 @@ classpath:api/signUp/signUp.feature:33
 </div>
 
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.001</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-23">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-19">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -1380,14 +1308,14 @@ classpath:api/signUp/signUp.feature:33
   </span>
   <div class="description indention"></div>
 
-  <div id="element-23" class="collapse collapsable-details ">
+  <div id="element-19" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-24">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-20">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1399,40 +1327,13 @@ classpath:api/signUp/signUp.feature:33
 
   </div>
 
-  <div id="steps-24" class="inner-level collapse collapsable-details ">
+  <div id="steps-20" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -1459,7 +1360,7 @@ classpath:api/signUp/signUp.feature:33
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
+  <span class="name">def path = 'signup'</span>
 
   <span class="lead-duration duration">0.001</span>
 
@@ -1473,12 +1374,39 @@ classpath:api/signUp/signUp.feature:33
 
 
 
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">text error500 =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-25">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
           <a>Doc string</a>
       </div>
-      <div id="msg-25" class="collapse collapsable-details">
+      <div id="msg-21" class="collapse collapsable-details">
         <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
@@ -1512,10 +1440,10 @@ classpath:api/signUp/signUp.feature:33
 </div>
 
 
-  <span class="lead-duration duration">0.444</span>
+  <span class="lead-duration duration">0.434</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-26">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -1528,14 +1456,14 @@ classpath:api/signUp/signUp.feature:33
   </span>
   <div class="description indention"></div>
 
-  <div id="element-26" class="collapse collapsable-details ">
+  <div id="element-22" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-27">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1547,7 +1475,7 @@ classpath:api/signUp/signUp.feature:33
 
   </div>
 
-  <div id="steps-27" class="inner-level collapse collapsable-details ">
+  <div id="steps-23" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1555,7 +1483,7 @@ classpath:api/signUp/signUp.feature:33
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1609,7 +1537,7 @@ classpath:api/signUp/signUp.feature:33
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.437</span>
+  <span class="lead-duration duration">0.433</span>
 
 </div>
 
@@ -1623,11 +1551,11 @@ classpath:api/signUp/signUp.feature:33
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-28">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-24">
           <a>Doc string</a>
       </div>
-      <div id="msg-28" class="collapse collapsable-details">
-        <pre>15:14:13.297 request:
+      <div id="msg-24" class="collapse collapsable-details">
+        <pre>11:53:17.573 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 40
@@ -1637,11 +1565,11 @@ classpath:api/signUp/signUp.feature:33
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-15:14:13.730 response time in milliseconds: 432
+11:53:18.004 response time in milliseconds: 430
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 1cb169f65dec57f27ab492cf9fa83a84
-1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; X-Cloud-Trace-Context: 4e78a0f939ac29ef81be8142d832994c
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
@@ -1696,7 +1624,7 @@ classpath:api/signUp/signUp.feature:33
   <span class="keyword indention">And</span>
   <span class="name">match $ == error500</span>
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -1734,10 +1662,10 @@ classpath:api/signUp/signUp.feature:33
 </div>
 
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-29">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -1750,14 +1678,14 @@ classpath:api/signUp/signUp.feature:33
   </span>
   <div class="description indention"></div>
 
-  <div id="element-29" class="collapse collapsable-details ">
+  <div id="element-25" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-30">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-26">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1769,7 +1697,7 @@ classpath:api/signUp/signUp.feature:33
 
   </div>
 
-  <div id="steps-30" class="inner-level collapse collapsable-details ">
+  <div id="steps-26" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1845,10 +1773,10 @@ classpath:api/signUp/signUp.feature:33
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-31">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-27">
           <a>Doc string</a>
       </div>
-      <div id="msg-31" class="collapse collapsable-details">
+      <div id="msg-27" class="collapse collapsable-details">
         <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
@@ -1882,10 +1810,10 @@ classpath:api/signUp/signUp.feature:33
 </div>
 
 
-  <span class="lead-duration duration">0.681</span>
+  <span class="lead-duration duration">0.390</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-32">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-28">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -1898,14 +1826,14 @@ classpath:api/signUp/signUp.feature:33
   </span>
   <div class="description indention"></div>
 
-  <div id="element-32" class="collapse collapsable-details ">
+  <div id="element-28" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-33">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-29">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1917,7 +1845,7 @@ classpath:api/signUp/signUp.feature:33
 
   </div>
 
-  <div id="steps-33" class="inner-level collapse collapsable-details ">
+  <div id="steps-29" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1979,7 +1907,7 @@ classpath:api/signUp/signUp.feature:33
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.679</span>
+  <span class="lead-duration duration">0.388</span>
 
 </div>
 
@@ -1993,11 +1921,11 @@ classpath:api/signUp/signUp.feature:33
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-34">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
           <a>Doc string</a>
       </div>
-      <div id="msg-34" class="collapse collapsable-details">
-        <pre>15:14:13.384 request:
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>11:53:17.631 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 29
@@ -2007,11 +1935,11 @@ classpath:api/signUp/signUp.feature:33
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
 
-15:14:14.018 response time in milliseconds: 633
+11:53:18.016 response time in milliseconds: 384
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 7c7f7660fe54fcc10b6143693f3d7a6a
-1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; X-Cloud-Trace-Context: 575f61d4f347ec667c7bccb15af94abf
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
@@ -2066,7 +1994,7 @@ classpath:api/signUp/signUp.feature:33
   <span class="keyword indention">And</span>
   <span class="name">match $ == error500</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -2104,10 +2032,10 @@ classpath:api/signUp/signUp.feature:33
 </div>
 
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.004</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-35">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-31">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -2120,14 +2048,14 @@ classpath:api/signUp/signUp.feature:33
   </span>
   <div class="description indention"></div>
 
-  <div id="element-35" class="collapse collapsable-details ">
+  <div id="element-31" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-36">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-32">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2139,7 +2067,7 @@ classpath:api/signUp/signUp.feature:33
 
   </div>
 
-  <div id="steps-36" class="inner-level collapse collapsable-details ">
+  <div id="steps-32" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2147,7 +2075,7 @@ classpath:api/signUp/signUp.feature:33
   <span class="keyword indention">*</span>
   <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.003</span>
 
 </div>
 
@@ -2215,10 +2143,10 @@ classpath:api/signUp/signUp.feature:33
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-37">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-33">
           <a>Doc string</a>
       </div>
-      <div id="msg-37" class="collapse collapsable-details">
+      <div id="msg-33" class="collapse collapsable-details">
         <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
@@ -2252,12 +2180,12 @@ classpath:api/signUp/signUp.feature:33
 </div>
 
 
-  <span class="lead-duration duration">0.354</span>
+  <span class="lead-duration duration">0.385</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-38">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-34">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Valid a new user with 50 characters in username</span>
 
@@ -2268,16 +2196,16 @@ classpath:api/signUp/signUp.feature:33
   </span>
   <div class="description indention"></div>
 
-  <div id="element-38" class="collapse collapsable-details  in ">
+  <div id="element-34" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-39">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2287,7 +2215,7 @@ classpath:api/signUp/signUp.feature:33
 
   </div>
 
-  <div id="steps-39" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-35" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2320,7 +2248,7 @@ classpath:api/signUp/signUp.feature:33
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;qwastyuiop23df89jkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;123&quot;, &quot;password&quot;: &quot;sayfgb2387&quot;}</span>
+  <span class="name">request {&quot;username&quot;: &quot;qwas23uiop23df89jkl&ntilde;zxcvb23qwertyuoipasdfghjkl&ntilde;123&quot;, &quot;password&quot;: &quot;sayfgb2387&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -2349,7 +2277,7 @@ classpath:api/signUp/signUp.feature:33
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.351</span>
+  <span class="lead-duration duration">0.384</span>
 
 </div>
 
@@ -2363,11 +2291,11 @@ classpath:api/signUp/signUp.feature:33
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-40">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
           <a>Doc string</a>
       </div>
-      <div id="msg-40" class="collapse collapsable-details">
-        <pre>15:14:13.421 request:
+      <div id="msg-36" class="collapse collapsable-details">
+        <pre>11:53:17.692 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 91
@@ -2375,18 +2303,16 @@ classpath:api/signUp/signUp.feature:33
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;qwastyuiop23df89jkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
+{&quot;username&quot;:&quot;qwas23uiop23df89jkl&ntilde;zxcvb23qwertyuoipasdfghjkl&ntilde;123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
 
-15:14:13.762 response time in milliseconds: 341
+11:53:18.072 response time in milliseconds: 380
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: fa02d0deb5fa98dea0254e62fcc59a6a
-1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; X-Cloud-Trace-Context: fee21d21acd9bfda675246b029f3bacf
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+1 &lt; Content-Length: 3
+&quot;&quot;
 
 
 </pre>
@@ -2431,11 +2357,11 @@ classpath:api/signUp/signUp.feature:33
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -2444,21 +2370,288 @@ classpath:api/signUp/signUp.feature:33
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-41">
-          <a>match</a>
-      </div>
-      <div id="msg-41" class="collapse collapsable-details  in ">
-        <pre>match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
 
-classpath:api/signUp/signUp.feature:54</pre>
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.000</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-37">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-37" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-38">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-38" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def path = 'signup'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">text error500 =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-39">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-39" class="collapse collapsable-details">
+        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.393</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-40">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Valid a new user with 50 characters in password</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-40" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-41">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-41" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url urlBase + path</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request {&quot;username&quot;: &quot;as123454ag&quot;, &quot;password&quot;: &quot;qwertyu12pasdfghjkl&ntilde;asdvbnmqwertyuoip34dfghjkl&ntilde;zxc&quot;}</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.392</span>
+
+</div>
+
+
+
+
+
 
 
 
@@ -2469,18 +2662,84 @@ classpath:api/signUp/signUp.feature:54</pre>
           <a>Doc string</a>
       </div>
       <div id="msg-42" class="collapse collapsable-details">
-        <pre>15:14:13.772 classpath:api/signUp/signUp.feature:54
-And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
-match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+        <pre>11:53:18.008 request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 91
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;as123454ag&quot;,&quot;password&quot;:&quot;qwertyu12pasdfghjkl&ntilde;asdvbnmqwertyuoip34dfghjkl&ntilde;zxc&quot;}
 
-classpath:api/signUp/signUp.feature:54
+11:53:18.393 response time in milliseconds: 383
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; X-Cloud-Trace-Context: b9e71e064a69566d0e2c43d5bdffa085
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 3
+&quot;&quot;
+
+
 </pre>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2655,14 +2914,14 @@ classpath:api/signUp/signUp.feature:54
 </div>
 
 
-  <span class="lead-duration duration">0.357</span>
+  <span class="lead-duration duration">0.427</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-46">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-46">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Valid a new user with 50 characters in password</span>
+  <span class="name">Valid a new user with 100 characters in username</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -2671,16 +2930,16 @@ classpath:api/signUp/signUp.feature:54
   </span>
   <div class="description indention"></div>
 
-  <div id="element-46" class="collapse collapsable-details  in ">
+  <div id="element-46" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-47">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-47">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -2690,7 +2949,7 @@ classpath:api/signUp/signUp.feature:54
 
   </div>
 
-  <div id="steps-47" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-47" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2723,7 +2982,7 @@ classpath:api/signUp/signUp.feature:54
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;as122354ag&quot;, &quot;password&quot;: &quot;qwertyu12pasdfghjkl&ntilde;asdvbnmqwertyuoipasdfghjkl&ntilde;zxc&quot;}</span>
+  <span class="name">request {&quot;username&quot;: &quot;qwertyuioasdd56h12l&ntilde;zxcvbnmq45ertyuoipasdfghjkl&ntilde;zxcqwertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;z123&quot;, &quot;password&quot;: &quot;sayfgb2387&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -2752,7 +3011,7 @@ classpath:api/signUp/signUp.feature:54
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.356</span>
+  <span class="lead-duration duration">0.426</span>
 
 </div>
 
@@ -2770,26 +3029,24 @@ classpath:api/signUp/signUp.feature:54
           <a>Doc string</a>
       </div>
       <div id="msg-48" class="collapse collapsable-details">
-        <pre>15:14:13.679 request:
+        <pre>11:53:18.014 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 91
+1 &gt; Content-Length: 145
 1 &gt; Host: api.demoblaze.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;as122354ag&quot;,&quot;password&quot;:&quot;qwertyu12pasdfghjkl&ntilde;asdvbnmqwertyuoipasdfghjkl&ntilde;zxc&quot;}
+{&quot;username&quot;:&quot;qwertyuioasdd56h12l&ntilde;zxcvbnmq45ertyuoipasdfghjkl&ntilde;zxcqwertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;z123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
 
-15:14:14.027 response time in milliseconds: 348
+11:53:18.429 response time in milliseconds: 413
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: faf4bc8c712ab2229196455ba30f3cb7
-1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; X-Cloud-Trace-Context: 40df38e3d2ca58540376d8036f226415
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+1 &lt; Content-Length: 3
+&quot;&quot;
 
 
 </pre>
@@ -2812,296 +3069,6 @@ classpath:api/signUp/signUp.feature:54
   <span class="name">status 200</span>
 
   <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And failed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-49">
-          <a>match</a>
-      </div>
-      <div id="msg-49" class="collapse collapsable-details  in ">
-        <pre>match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:61</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-50">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-50" class="collapse collapsable-details">
-        <pre>15:14:14.029 classpath:api/signUp/signUp.feature:61
-And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
-match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:61
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.000</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-51">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-51" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-52">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-52" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-53">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-53" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.483</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-54">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Valid a new user with 100 characters in username</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-54" class="collapse collapsable-details  in ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-55">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-55" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -3126,119 +3093,6 @@ classpath:api/signUp/signUp.feature:61
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;qwertyuioasddfgh12l&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxcqwertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;z123&quot;, &quot;password&quot;: &quot;sayfgb2387&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.480</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-56">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-56" class="collapse collapsable-details">
-        <pre>15:14:13.869 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 144
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;qwertyuioasddfgh12l&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxcqwertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;z123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
-
-15:14:14.225 response time in milliseconds: 354
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: c1e1540a2994505855838f48a3528fba
-1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And failed">
-  <span class="keyword indention">And</span>
   <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
@@ -3250,43 +3104,9 @@ classpath:api/signUp/signUp.feature:61
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-57">
-          <a>match</a>
-      </div>
-      <div id="msg-57" class="collapse collapsable-details  in ">
-        <pre>match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:68</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-58">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-58" class="collapse collapsable-details">
-        <pre>15:14:14.227 classpath:api/signUp/signUp.feature:68
-And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
-match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:68
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -3313,10 +3133,10 @@ classpath:api/signUp/signUp.feature:68
 </div>
 
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-59">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-49">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -3329,14 +3149,14 @@ classpath:api/signUp/signUp.feature:68
   </span>
   <div class="description indention"></div>
 
-  <div id="element-59" class="collapse collapsable-details ">
+  <div id="element-49" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-60">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-50">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3348,7 +3168,7 @@ classpath:api/signUp/signUp.feature:68
 
   </div>
 
-  <div id="steps-60" class="inner-level collapse collapsable-details ">
+  <div id="steps-50" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3424,10 +3244,10 @@ classpath:api/signUp/signUp.feature:68
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-61">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-51">
           <a>Doc string</a>
       </div>
-      <div id="msg-61" class="collapse collapsable-details">
+      <div id="msg-51" class="collapse collapsable-details">
         <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
@@ -3461,12 +3281,12 @@ classpath:api/signUp/signUp.feature:68
 </div>
 
 
-  <span class="lead-duration duration">0.394</span>
+  <span class="lead-duration duration">0.564</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-62">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-52">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Valid a new user with 100 characters in password</span>
 
@@ -3477,16 +3297,16 @@ classpath:api/signUp/signUp.feature:68
   </span>
   <div class="description indention"></div>
 
-  <div id="element-62" class="collapse collapsable-details  in ">
+  <div id="element-52" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-63">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-53">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -3496,7 +3316,7 @@ classpath:api/signUp/signUp.feature:68
 
   </div>
 
-  <div id="steps-63" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-53" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3529,7 +3349,7 @@ classpath:api/signUp/signUp.feature:68
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;asfg2354%&amp;$1/&quot;, &quot;password&quot;: &quot;q12rtyuiopasdfghjkl&ntilde;zxasdfmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}</span>
+  <span class="name">request {&quot;username&quot;: &quot;asfg7654%&amp;$1/&quot;, &quot;password&quot;: &quot;q12rtyuiopasdfg23kl&ntilde;zxasdfmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -3558,7 +3378,7 @@ classpath:api/signUp/signUp.feature:68
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.393</span>
+  <span class="lead-duration duration">0.560</span>
 
 </div>
 
@@ -3572,11 +3392,11 @@ classpath:api/signUp/signUp.feature:68
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-64">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-54">
           <a>Doc string</a>
       </div>
-      <div id="msg-64" class="collapse collapsable-details">
-        <pre>15:14:13.800 request:
+      <div id="msg-54" class="collapse collapsable-details">
+        <pre>11:53:18.026 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 102
@@ -3584,18 +3404,16 @@ classpath:api/signUp/signUp.feature:68
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;asfg2354%&amp;$1\/&quot;,&quot;password&quot;:&quot;q12rtyuiopasdfghjkl&ntilde;zxasdfmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}
+{&quot;username&quot;:&quot;asfg7654%&amp;$1\/&quot;,&quot;password&quot;:&quot;q12rtyuiopasdfg23kl&ntilde;zxasdfmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}
 
-15:14:14.175 response time in milliseconds: 374
+11:53:18.583 response time in milliseconds: 556
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: a357136cd4a8dc06af356601f2902266
-1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; X-Cloud-Trace-Context: e923dd10a14f33f118cc28ee5209a04f
+1 &lt; Date: Thu, 10 Aug 2023 16:53:19 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+1 &lt; Content-Length: 3
+&quot;&quot;
 
 
 </pre>
@@ -3640,11 +3458,11 @@ classpath:api/signUp/signUp.feature:68
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -3653,43 +3471,9 @@ classpath:api/signUp/signUp.feature:68
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-65">
-          <a>match</a>
-      </div>
-      <div id="msg-65" class="collapse collapsable-details  in ">
-        <pre>match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:75</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-66">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-66" class="collapse collapsable-details">
-        <pre>15:14:14.183 classpath:api/signUp/signUp.feature:75
-And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
-match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:75
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -3719,7 +3503,7 @@ classpath:api/signUp/signUp.feature:75
   <span class="lead-duration duration">0.001</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-67">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-55">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
@@ -3732,14 +3516,14 @@ classpath:api/signUp/signUp.feature:75
   </span>
   <div class="description indention"></div>
 
-  <div id="element-67" class="collapse collapsable-details ">
+  <div id="element-55" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-68">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-56">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3751,7 +3535,7 @@ classpath:api/signUp/signUp.feature:75
 
   </div>
 
-  <div id="steps-68" class="inner-level collapse collapsable-details ">
+  <div id="steps-56" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3827,10 +3611,10 @@ classpath:api/signUp/signUp.feature:75
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-69">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-57">
           <a>Doc string</a>
       </div>
-      <div id="msg-69" class="collapse collapsable-details">
+      <div id="msg-57" class="collapse collapsable-details">
         <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
@@ -3864,12 +3648,12 @@ classpath:api/signUp/signUp.feature:75
 </div>
 
 
-  <span class="lead-duration duration">0.333</span>
+  <span class="lead-duration duration">0.500</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-70">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-58">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Signup a new user with special characteres</span>
 
@@ -3880,16 +3664,16 @@ classpath:api/signUp/signUp.feature:75
   </span>
   <div class="description indention"></div>
 
-  <div id="element-70" class="collapse collapsable-details  in ">
+  <div id="element-58" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-71">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-59">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -3899,7 +3683,7 @@ classpath:api/signUp/signUp.feature:75
 
   </div>
 
-  <div id="steps-71" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-59" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3907,7 +3691,7 @@ classpath:api/signUp/signUp.feature:75
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -3932,7 +3716,7 @@ classpath:api/signUp/signUp.feature:75
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;asfasdg2354%&amp;$1&quot;, &quot;password&quot;: &quot;asd556wertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}</span>
+  <span class="name">request {&quot;username&quot;: &quot;asfasd56354%&amp;$1&quot;, &quot;password&quot;: &quot;asd556wertyuiopasdf/&amp;jkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -3961,7 +3745,7 @@ classpath:api/signUp/signUp.feature:75
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.326</span>
+  <span class="lead-duration duration">0.494</span>
 
 </div>
 
@@ -3975,30 +3759,28 @@ classpath:api/signUp/signUp.feature:75
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-72">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-60">
           <a>Doc string</a>
       </div>
-      <div id="msg-72" class="collapse collapsable-details">
-        <pre>15:14:14.056 request:
+      <div id="msg-60" class="collapse collapsable-details">
+        <pre>11:53:18.084 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 108
+1 &gt; Content-Length: 109
 1 &gt; Host: api.demoblaze.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;asfasdg2354%&amp;$1&quot;,&quot;password&quot;:&quot;asd556wertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}
+{&quot;username&quot;:&quot;asfasd56354%&amp;$1&quot;,&quot;password&quot;:&quot;asd556wertyuiopasdf\/&amp;jkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}
 
-15:14:14.380 response time in milliseconds: 323
+11:53:18.544 response time in milliseconds: 450
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 16de1c4d0a258cda1f8e54ca7cc7ca47
-1 &lt; Date: Wed, 09 Aug 2023 20:14:14 GMT
+1 &lt; X-Cloud-Trace-Context: 365c2323ec1dbc3d988b4f88bc396aa2
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+1 &lt; Content-Length: 3
+&quot;&quot;
 
 
 </pre>
@@ -4043,11 +3825,11 @@ classpath:api/signUp/signUp.feature:75
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.005</span>
 
 </div>
 
@@ -4056,43 +3838,9 @@ classpath:api/signUp/signUp.feature:75
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-73">
-          <a>match</a>
-      </div>
-      <div id="msg-73" class="collapse collapsable-details  in ">
-        <pre>match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:82</pre>
-      </div>
-    </div>
-  </div>
 
 
 
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-74">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-74" class="collapse collapsable-details">
-        <pre>15:14:14.384 classpath:api/signUp/signUp.feature:82
-And match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}
-match failed: NOT_EQUALS
-  $ | is equal (MAP:MAP)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-
-classpath:api/signUp/signUp.feature:82
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 

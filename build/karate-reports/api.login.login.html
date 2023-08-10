@@ -28,20 +28,20 @@
       <img src="karate-logo.svg" alt="Karate"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">5</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">6</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2023-08-09 03:14:13 p. m.</div>
+    <div>2023-08-10 11:53:17 a. m.</div>
   </div>        
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:15]"><span>[1:15]</span> <span>Login with a valid user</span></a>
           </div>
           <div class="nav-item passed">
@@ -82,8 +82,8 @@
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>2712</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1283</span>
             </div>
           </div>
           <div class="step-row">
@@ -134,7 +134,7 @@
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -162,7 +162,7 @@
         <span>*</span>&nbsp;<span>text error500 =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -193,7 +193,7 @@
         <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">35</div>
+    <div class="time-cell passed">18</div>
   </div>
 
    
@@ -221,7 +221,7 @@
         <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">135</div>
+    <div class="time-cell passed">72</div>
   </div>
 
    
@@ -249,7 +249,7 @@
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">2470</div>
+    <div class="time-cell passed">1184</div>
   </div>
 
    
@@ -258,7 +258,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.18">15:14:11.299 request:
+  <div class="preformatted" data-parent="0.18">11:53:16.353 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 58
@@ -268,16 +268,16 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-15:14:12.753 response time in milliseconds: 1453
+11:53:17.164 response time in milliseconds: 809
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 45b8b5df090471d4d32dffc5b428936d
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: 35cdb8d848566d9f21dd706f30786a13
+1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
-&quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg==&quot;
+&quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjI4Ng==&quot;
 
 
 </div>   
@@ -321,13 +321,13 @@
 
   <div class="step-row">
     <div class="step-container" id="0.20">
-      <div class="step-ref failed">20</div>
+      <div class="step-ref passed">20</div>
       
-      <div class="step-cell failed">
-        <span>And</span>&nbsp;<span>match $ == &quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA==&quot;</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $ == &quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjI4Ng==&quot;</span>
       </div>
     </div>
-    <div class="time-cell failed">63</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -336,15 +336,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.20">15:14:12.819 classpath:api/login/login.feature:20
-And match $ == &quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA==&quot;
-match failed: EQUALS
-  $ | not equal (STRING:STRING)
-  &#39;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIxMg==&#39;
-  &#39;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA==&#39;
-
-classpath:api/login/login.feature:20
-</div>   
+     
 
   
 
@@ -364,7 +356,7 @@ classpath:api/login/login.feature:20
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2788</span>
+              <span>ms:</span>&nbsp;<span>1258</span>
             </div>
           </div>
           <div class="step-row">
@@ -387,7 +379,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -415,7 +407,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -474,7 +466,7 @@ classpath:api/login/login.feature:20
         <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">35</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -502,7 +494,7 @@ classpath:api/login/login.feature:20
         <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123%&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">135</div>
+    <div class="time-cell passed">71</div>
   </div>
 
    
@@ -530,7 +522,7 @@ classpath:api/login/login.feature:20
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">2473</div>
+    <div class="time-cell passed">1139</div>
   </div>
 
    
@@ -539,7 +531,7 @@ classpath:api/login/login.feature:20
 
   
 
-  <div class="preformatted" data-parent="0.26">15:14:11.299 request:
+  <div class="preformatted" data-parent="0.26">11:53:16.345 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 59
@@ -549,12 +541,12 @@ classpath:api/login/login.feature:20
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;BryanAlexFreire123%&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-15:14:12.754 response time in milliseconds: 1453
+11:53:17.120 response time in milliseconds: 774
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 0ee3807fa52a193985c2d5c80d1e7ad1
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: 2f2c67af04e2fd5b5571115a2f576238
+1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -608,7 +600,7 @@ classpath:api/login/login.feature:20
         <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;User does not exist.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">137</div>
+    <div class="time-cell passed">24</div>
   </div>
 
    
@@ -637,7 +629,7 @@ classpath:api/login/login.feature:20
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2790</span>
+              <span>ms:</span>&nbsp;<span>1254</span>
             </div>
           </div>
           <div class="step-row">
@@ -660,7 +652,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -688,7 +680,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">8</div>
   </div>
 
    
@@ -716,7 +708,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>text error500 =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -747,7 +739,7 @@ classpath:api/login/login.feature:20
         <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">32</div>
+    <div class="time-cell passed">11</div>
   </div>
 
    
@@ -775,7 +767,7 @@ classpath:api/login/login.feature:20
         <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;asfghgdssdg1&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">134</div>
+    <div class="time-cell passed">72</div>
   </div>
 
    
@@ -803,7 +795,7 @@ classpath:api/login/login.feature:20
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">2483</div>
+    <div class="time-cell passed">1139</div>
   </div>
 
    
@@ -812,7 +804,7 @@ classpath:api/login/login.feature:20
 
   
 
-  <div class="preformatted" data-parent="0.34">15:14:11.295 request:
+  <div class="preformatted" data-parent="0.34">11:53:16.344 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 59
@@ -822,12 +814,12 @@ classpath:api/login/login.feature:20
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg1&quot;}
 
-15:14:12.760 response time in milliseconds: 1457
+11:53:17.120 response time in milliseconds: 775
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: ad62f6fea48ad4f49a13c73f4988a5cd
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: 286a92b12237cda55d67f4c7acdfbadf
+1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -881,7 +873,7 @@ classpath:api/login/login.feature:20
         <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">129</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -910,7 +902,7 @@ classpath:api/login/login.feature:20
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2712</span>
+              <span>ms:</span>&nbsp;<span>1333</span>
             </div>
           </div>
           <div class="step-row">
@@ -933,7 +925,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -961,7 +953,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -989,7 +981,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>text error500 =</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1020,7 +1012,7 @@ classpath:api/login/login.feature:20
         <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">27</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -1048,7 +1040,7 @@ classpath:api/login/login.feature:20
         <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">134</div>
+    <div class="time-cell passed">73</div>
   </div>
 
    
@@ -1076,7 +1068,7 @@ classpath:api/login/login.feature:20
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">2419</div>
+    <div class="time-cell passed">1116</div>
   </div>
 
    
@@ -1085,7 +1077,7 @@ classpath:api/login/login.feature:20
 
   
 
-  <div class="preformatted" data-parent="0.42">15:14:11.302 request:
+  <div class="preformatted" data-parent="0.42">11:53:16.346 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 40
@@ -1095,11 +1087,11 @@ classpath:api/login/login.feature:20
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-15:14:12.698 response time in milliseconds: 1390
+11:53:17.094 response time in milliseconds: 743
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 98e9d4bcf31612a356d8afc9457674c5
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: e951dec4c49d22882017be225dce0161
+1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
@@ -1155,7 +1147,7 @@ classpath:api/login/login.feature:20
         <span>And</span>&nbsp;<span>match $ == error500</span>
       </div>
     </div>
-    <div class="time-cell passed">114</div>
+    <div class="time-cell passed">120</div>
   </div>
 
    
@@ -1184,7 +1176,7 @@ classpath:api/login/login.feature:20
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>425</span>
+              <span>ms:</span>&nbsp;<span>410</span>
             </div>
           </div>
           <div class="step-row">
@@ -1207,7 +1199,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1235,7 +1227,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1294,7 +1286,7 @@ classpath:api/login/login.feature:20
         <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1350,7 +1342,7 @@ classpath:api/login/login.feature:20
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">416</div>
+    <div class="time-cell passed">408</div>
   </div>
 
    
@@ -1359,7 +1351,7 @@ classpath:api/login/login.feature:20
 
   
 
-  <div class="preformatted" data-parent="0.50">15:14:12.891 request:
+  <div class="preformatted" data-parent="0.50">11:53:17.157 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 47
@@ -1369,12 +1361,12 @@ classpath:api/login/login.feature:20
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;&quot;}
 
-15:14:13.258 response time in milliseconds: 367
+11:53:17.558 response time in milliseconds: 400
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 28dbfd35abb0fea59ccb117b82374919
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: 008834c376bc2d1b22ba325d3f50b8fe
+1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -1428,7 +1420,7 @@ classpath:api/login/login.feature:20
         <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1457,7 +1449,7 @@ classpath:api/login/login.feature:20
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>398</span>
+              <span>ms:</span>&nbsp;<span>355</span>
             </div>
           </div>
           <div class="step-row">
@@ -1480,7 +1472,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1508,7 +1500,7 @@ classpath:api/login/login.feature:20
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1567,7 +1559,7 @@ classpath:api/login/login.feature:20
         <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1623,7 +1615,7 @@ classpath:api/login/login.feature:20
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">390</div>
+    <div class="time-cell passed">349</div>
   </div>
 
    
@@ -1632,7 +1624,7 @@ classpath:api/login/login.feature:20
 
   
 
-  <div class="preformatted" data-parent="0.58">15:14:12.895 request:
+  <div class="preformatted" data-parent="0.58">11:53:17.178 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 29
@@ -1642,11 +1634,11 @@ classpath:api/login/login.feature:20
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
 
-15:14:13.232 response time in milliseconds: 336
+11:53:17.524 response time in milliseconds: 345
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 8545bafc330b21588cbb8c448260b101
-1 &lt; Date: Wed, 09 Aug 2023 20:14:13 GMT
+1 &lt; X-Cloud-Trace-Context: 7b069573a0ee9768c66e04efccf0be1c
+1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;

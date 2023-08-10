@@ -17,7 +17,7 @@ Feature: Login with user registered in website
     And request {"username": "BryanAlexFreire123", "password": "asfghgdssdg"}
     When method post
     Then status 200
-    And match $ == "Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjIwNA=="
+    And match $ == "Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjI4Ng=="
 
   @WrongUser
   Scenario: Login with a wrong user
