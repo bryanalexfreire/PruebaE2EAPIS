@@ -53,10 +53,11 @@ This project was generated with Karate, Serenity bdd, Cucumber and Gherkin.
      ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/362f64a3-a1d8-494d-8fcf-e0f51eb9bfe6)
 
 
-   - Click right mouse button on "overview-failures.html" and and select browser open this report of cucumber
+   - Double click on "overview-features.html" and select the browser to open this cucumber report, the option for browsers to be presented is to hover over the open file
 
   
-     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/0462de51-baaf-4173-b0cd-596e0b69d631)
+     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/2c45b3f5-c592-4a21-8570-ee6706b45de9)
+
 
 
 5. Additional Information: ➕
