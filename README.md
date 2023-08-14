@@ -15,6 +15,20 @@ This project was generated with Karate, Serenity bdd, Cucumber and Gherkin.
    
    **** EJECUTE TEST ****
 
+   - If you want a success flow you must make this changes in "signUP.feature"
+  
+     Doble left click on this file "signUP.feature"
+     
+     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/7119402b-253b-4dff-82f0-fdbbce2b1b1b)
+
+     And change the value of newUser and it's will be case success
+     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/e2e19e7c-1cd5-45d7-a9b4-712b6b83f45d)
+
+     Evidence:
+     
+     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/0de0ec3d-0da7-4d12-8675-b26433973100)
+   
+
    - Open file ManagmentTest.java
   
      ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/b550b3d5-7656-4b55-bdea-cca7009e005a)
@@ -65,21 +79,6 @@ This project was generated with Karate, Serenity bdd, Cucumber and Gherkin.
    - In this repository there are 3 folder with evidence like postman files, conclusions.txt and reports of karate & cucumber
 
      ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/5169ef5e-2944-4e84-891b-c3090eda61d1)
-
-   - If you want a success flow you must make this changes in "signUP.feature"
-  
-     Doble left click on this file "signUP.feature"
-     
-     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/7119402b-253b-4dff-82f0-fdbbce2b1b1b)
-
-     And change the value of newUser and it's will be case success
-     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/e2e19e7c-1cd5-45d7-a9b4-712b6b83f45d)
-
-     Evidence:
-     
-     ![image](https://github.com/bryanalexfreire/PruebaE2EAPIS/assets/30132840/0de0ec3d-0da7-4d12-8675-b26433973100)
-
-
 
 AUTOR 📍
 @BryanFreire
