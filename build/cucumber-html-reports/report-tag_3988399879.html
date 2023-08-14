@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>PruebaE2EAPIS</td>
-      <td>14 ago 2023, 13:26</td>
+      <td>14 ago 2023, 14:55</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="1157802900">1.157</td>
+          <td class="duration" data-value="1465703700">1.465</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -181,7 +181,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.157</span>
+  <span class="lead-duration duration">1.465</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -224,7 +224,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.032</span>
+  <span class="lead-duration duration">0.090</span>
 
 </div>
 
@@ -249,9 +249,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;asfghgdssdg1&quot;}</span>
+  <span class="name">request {&quot;username&quot;: '#(validUser)' , &quot;password&quot;: '#(wrongPassword)'}</span>
 
-  <span class="lead-duration duration">0.075</span>
+  <span class="lead-duration duration">0.067</span>
 
 </div>
 
@@ -278,7 +278,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.986</span>
+  <span class="lead-duration duration">1.254</span>
 
 </div>
 
@@ -296,22 +296,22 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>13:26:36.364 request:
+        <pre>14:55:47.005 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 59
+1 &gt; Content-Length: 58
 1 &gt; Host: api.demoblaze.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg1&quot;}
+{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfgh1dssdg&quot;}
 
-13:26:36.950 response time in milliseconds: 581
+14:55:47.927 response time in milliseconds: 915
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 765f9318f8c2b105277b256f29392566
-1 &lt; Date: Mon, 14 Aug 2023 18:26:36 GMT
+1 &lt; X-Cloud-Trace-Context: 59721c8ec530b05cfc34f6d6f0f9c09e
+1 &lt; Date: Mon, 14 Aug 2023 19:55:47 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -364,7 +364,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match $ == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
 
-  <span class="lead-duration duration">0.063</span>
+  <span class="lead-duration duration">0.053</span>
 
 </div>
 

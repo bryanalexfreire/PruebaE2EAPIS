@@ -2,8 +2,15 @@ Feature: Login with user registered in website
 
   Background:
   Background:
+    #data for testing api
     * def urlBase = 'https://api.demoblaze.com/'
     * def path = 'login'
+    #Params for be used in scenaries
+    * def validUser = 'BryanAlexFreire123'
+    * def wrongUser = 'BryanAlexFreire123%'
+    * def validPassword = 'asfghgdssdg'
+    * def wrongPassword = 'asfgh1dssdg'
+    #message for be compared with error 500
     * text error500 =
     """
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
@@ -15,16 +22,17 @@ Feature: Login with user registered in website
   @ValidLogin
   Scenario: Login with a valid user
     Given url urlBase + path
-    And request {"username": BryanAlexFreire123 , "password": "asfghgdssdg"}
+    And request {"username": '#(validUser)', "password": #(validPassword)}
     When method post
     Then status 200
     And match response !=  {"errorMessage": "User does not exist."}
     And match response !=  {"errorMessage": "Wrong password."}
 
+
   @WrongUser
   Scenario: Login with a wrong user
     Given url urlBase + path
-    And request {"username": "BryanAlexFreire123%", "password": "asfghgdssdg"}
+    And request {"username": '#(wrongUser)' , "password": '#(validPassword)'}
     When method post
     Then status 200
     And match $ == {"errorMessage": "User does not exist."}
@@ -32,7 +40,7 @@ Feature: Login with user registered in website
   @WrongPassword
   Scenario: Login with a wrong password
     Given url urlBase + path
-    And request {"username": "BryanAlexFreire123", "password": "asfghgdssdg1"}
+    And request {"username": '#(validUser)' , "password": '#(wrongPassword)'}
     When method post
     Then status 200
     And match $ == {"errorMessage": "Wrong password."}
@@ -40,7 +48,7 @@ Feature: Login with user registered in website
   @WithoutUser
   Scenario: Login without user and valid password
     Given url urlBase + path
-    And request {"username": "", "password": "asfghgdssdg"}
+    And request {"username": "", "password": '#(validPassword)'}
     When method post
     Then status 500
     And match $ == error500
@@ -48,7 +56,7 @@ Feature: Login with user registered in website
   @WithoutPassword
   Scenario: Login without password and valid user
     Given url urlBase + path
-    And request {"username": "BryanAlexFreire123", "password": ""}
+    And request {"username": '#(validUser)', "password": ""}
     When method post
     Then status 200
     And match $ == {"errorMessage": "Wrong password."}

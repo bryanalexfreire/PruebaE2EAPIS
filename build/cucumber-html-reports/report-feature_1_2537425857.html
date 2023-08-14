@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>PruebaE2EAPIS</td>
-      <td>14 ago 2023, 13:26</td>
+      <td>14 ago 2023, 14:55</td>
     </tr>
   </tbody>
 </table>
@@ -127,18 +127,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">api/signUp/signUp.feature</td>
-          <td      class="passed"    >80</td>
+          <td      class="passed"    >20</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">80</td>
+          <td class="total">20</td>
 
-          <td  class="passed"    >10</td>
+          <td  class="passed"    >2</td>
           <td >0</td>
-          <td class="total">10</td>
+          <td class="total">2</td>
 
-          <td class="duration" data-value="3599005600">3.599</td>
+          <td class="duration" data-value="1030135700">1.030</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.014</span>
+  <span class="lead-duration duration">0.004</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -226,13 +226,14 @@ $(document).ready(function() {
 
   <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
+          <div class="comment indention">#data for testing api</div>
 
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
 
-  <span class="lead-duration duration">0.008</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -259,7 +260,35 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def path = 'signup'</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention">#Params for be used in scenaries</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def newUser = '1ryanAlexFreire123'</span>
+
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -284,9 +313,37 @@ $(document).ready(function() {
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
+  <span class="name">def newPassword = 'asfghgdssdg'</span>
 
   <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention">#message for be compared with error 500</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">text error500 =</span>
+
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -337,7 +394,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.414</span>
+  <span class="lead-duration duration">0.659</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
@@ -380,7 +437,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -405,9 +462,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;12rya5Freire%123as&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
+  <span class="name">request {&quot;username&quot;: '#(newUser)', &quot;password&quot;: #(newPassword)}</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -434,7 +491,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.410</span>
+  <span class="lead-duration duration">0.655</span>
 
 </div>
 
@@ -452,7 +509,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details">
-        <pre>13:26:37.175 request:
+        <pre>14:55:48.001 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 58
@@ -460,13 +517,13 @@ $(document).ready(function() {
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;12rya5Freire%123as&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+{&quot;username&quot;:&quot;1ryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-13:26:37.556 response time in milliseconds: 381
+14:55:48.643 response time in milliseconds: 640
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 491335cf54c333ab3f274bbb39da66b8
-1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
+1 &lt; X-Cloud-Trace-Context: ac757264cbdcedb3fae7cbf04693e4c5
+1 &lt; Date: Mon, 14 Aug 2023 19:55:48 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 3
 &quot;&quot;
@@ -556,7 +613,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.014</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
@@ -593,13 +650,14 @@ $(document).ready(function() {
 
   <div id="steps-8" class="inner-level collapse collapsable-details ">
       <div class="step">
+          <div class="comment indention">#data for testing api</div>
 
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -647,13 +705,69 @@ $(document).ready(function() {
 
       </div>
       <div class="step">
+          <div class="comment indention">#Params for be used in scenaries</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def newUser = '1ryanAlexFreire123'</span>
+
+  <span class="lead-duration duration">0.007</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def newPassword = 'asfghgdssdg'</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention">#message for be compared with error 500</div>
 
 
 <div class="brief step-name-* passed">
   <span class="keyword indention">*</span>
   <span class="name">text error500 =</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -704,7 +818,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.305</span>
+  <span class="lead-duration duration">0.352</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-10">
@@ -747,7 +861,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">url urlBase + path</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -772,7 +886,7 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
+  <span class="name">request {&quot;username&quot;: &quot;newUser&quot;, &quot;password&quot;: &quot;newPassword&quot;}</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -801,7 +915,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method post</span>
 
-  <span class="lead-duration duration">0.302</span>
+  <span class="lead-duration duration">0.341</span>
 
 </div>
 
@@ -819,22 +933,22 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-12" class="collapse collapsable-details">
-        <pre>13:26:37.189 request:
+        <pre>14:55:48.028 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 58
+1 &gt; Content-Length: 47
 1 &gt; Host: api.demoblaze.com
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
+{&quot;username&quot;:&quot;newUser&quot;,&quot;password&quot;:&quot;newPassword&quot;}
 
-13:26:37.487 response time in milliseconds: 298
+14:55:48.366 response time in milliseconds: 338
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: bba71123641d236754d6a83b56742115
-1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
+1 &lt; X-Cloud-Trace-Context: 2e44ecd438127df8139e90ba41aa6adc
+1 &lt; Date: Mon, 14 Aug 2023 19:55:48 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -887,2949 +1001,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match $ == {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
 
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.002</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-13" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-14" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-15" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.356</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-16">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Signup a new user without password</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-16" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-17">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-17" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;1ryan2Ale5reire147sasd&quot;, &quot;password&quot;: &quot;&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.354</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-18" class="collapse collapsable-details">
-        <pre>13:26:37.505 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 51
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;1ryan2Ale5reire147sasd&quot;,&quot;password&quot;:&quot;&quot;}
-
-13:26:37.857 response time in milliseconds: 349
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 7cf31f2e9b01f9d692294d882126e03e
-1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 3
-&quot;&quot;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.003</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-19">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-19" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-20">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-20" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-21" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.312</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-22">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Signup a new user without username</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-22" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-23" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.310</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-24">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-24" class="collapse collapsable-details">
-        <pre>13:26:37.524 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 40
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
-
-13:26:37.826 response time in milliseconds: 301
-1 &lt; 500
-1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 18d8d296e0b96debcd875d7e528715be
-1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 290
-&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 500</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match $ == error500</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.001</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-25">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-25" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-26">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-26" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-27">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-27" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.319</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-28">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Signup a new user without params</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-28" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-29">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-29" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;&quot;, &quot;password&quot;: &quot;&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.318</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-30" class="collapse collapsable-details">
-        <pre>13:26:37.539 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 29
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
-
-13:26:37.854 response time in milliseconds: 314
-1 &lt; 500
-1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: c83ec0bec7c2310fdb986ed56d58733a
-1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 290
-&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 500</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match $ == error500</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.001</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-31">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-31" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-32">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-32" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-33">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-33" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.356</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-34">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Valid a new user with 50 characters in username</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-34" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-35" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;1was23uiop23d569jkl&ntilde;zxcvb23qwertyuoipasdfghjkl&ntilde;123&quot;, &quot;password&quot;: &quot;sayfgb2387&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.352</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-36" class="collapse collapsable-details">
-        <pre>13:26:37.596 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 91
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;1was23uiop23d569jkl&ntilde;zxcvb23qwertyuoipasdfghjkl&ntilde;123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
-
-13:26:37.945 response time in milliseconds: 349
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 74af7fc09cfd4515bad8b7314f698fc7
-1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 3
-&quot;&quot;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.001</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-37">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-37" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-38">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-38" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-39">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-39" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.381</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-40">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Valid a new user with 50 characters in password</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-40" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-41">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-41" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;1129854ag&quot;, &quot;password&quot;: &quot;qwertyu12pasdfghjkl&ntilde;asdvbnmqwertyuoip34dfghjkl&ntilde;zxc&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.379</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-42">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-42" class="collapse collapsable-details">
-        <pre>13:26:37.844 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 90
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;1129854ag&quot;,&quot;password&quot;:&quot;qwertyu12pasdfghjkl&ntilde;asdvbnmqwertyuoip34dfghjkl&ntilde;zxc&quot;}
-
-13:26:38.220 response time in milliseconds: 376
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 16a8281c3dc17bf832b9b7e5b2c48ec0
-1 &lt; Date: Mon, 14 Aug 2023 18:26:38 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 3
-&quot;&quot;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.002</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-43">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-43" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-44">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-44" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.001</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-45">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-45" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.346</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-46">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Valid a new user with 100 characters in username</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-46" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-47">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-47" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;1wertyuio98dd56h12l&ntilde;zxcvbnmq45ertyuoipasdfghjkl&ntilde;zxcqwertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;z123&quot;, &quot;password&quot;: &quot;sayfgb2387&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.342</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-48">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-48" class="collapse collapsable-details">
-        <pre>13:26:37.874 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 145
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;1wertyuio98dd56h12l&ntilde;zxcvbnmq45ertyuoipasdfghjkl&ntilde;zxcqwertyuiopasdfghjkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;z123&quot;,&quot;password&quot;:&quot;sayfgb2387&quot;}
-
-13:26:38.212 response time in milliseconds: 337
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: ff13a43c93ce53dea78098c428fd5ac1
-1 &lt; Date: Mon, 14 Aug 2023 18:26:38 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 3
-&quot;&quot;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
-
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.001</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-49">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-49" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-50">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-50" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-51">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-51" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.385</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-52">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Valid a new user with 100 characters in password</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-52" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-53">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-53" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;1sfg9854%&amp;$1/&quot;, &quot;password&quot;: &quot;q12rtyuiopasdfg23kl&ntilde;zxasdfmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.382</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-54">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-54" class="collapse collapsable-details">
-        <pre>13:26:37.869 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 102
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;1sfg9854%&amp;$1\/&quot;,&quot;password&quot;:&quot;q12rtyuiopasdfg23kl&ntilde;zxasdfmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}
-
-13:26:38.235 response time in milliseconds: 362
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 270a66bb5358eb3cc54181439b51de20
-1 &lt; Date: Mon, 14 Aug 2023 18:26:38 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 3
-&quot;&quot;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
-
-  <span class="lead-duration duration">0.002</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.001</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-55">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-55" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-56">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-56" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def urlBase = 'https://api.demoblaze.com/'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def path = 'signup'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">text error500 =</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-57">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-57" class="collapse collapsable-details">
-        <pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.386</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-58">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Signup a new user with special characteres</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-58" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-59">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-59" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url urlBase + path</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request {&quot;username&quot;: &quot;1fa8656354%&amp;$1&quot;, &quot;password&quot;: &quot;asd556wertyuiopasdf/&amp;jkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method post</span>
-
-  <span class="lead-duration duration">0.383</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-60">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-60" class="collapse collapsable-details">
-        <pre>13:26:37.958 request:
-1 &gt; POST https://api.demoblaze.com/signup
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 108
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;1fa8656354%&amp;$1&quot;,&quot;password&quot;:&quot;asd556wertyuiopasdf\/&amp;jkl&ntilde;zxcvbnmqwertyuoipasdfghjkl&ntilde;zxc&amp;%$124a&quot;}
-
-13:26:38.339 response time in milliseconds: 378
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 9de3864e4307518eb310b563eb8a1ac6
-1 &lt; Date: Mon, 14 Aug 2023 18:26:38 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Content-Length: 3
-&quot;&quot;
-
-
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response != {&quot;errorMessage&quot;: &quot;This user already exist.&quot;}</span>
-
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.008</span>
 
 </div>
 

@@ -3857,3 +3857,2567 @@ src/test/java/api/login/login.feature:23
 
 13:26:40.420 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:api/login/login.feature
 13:26:40.940 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:api/signUp/signUp.feature
+14:12:14.796 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:7
+* def userNameValues = read('classpath:data.txt')
+js failed:
+>>>>
+01: read('classpath:data.txt')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data.txt
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:7
+14:12:14.995 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:7
+* def userNameValues = read('classpath:data.txt')
+js failed:
+>>>>
+01: read('classpath:data.txt')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data.txt
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:7
+14:12:15.138 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:7
+* def userNameValues = read('classpath:data.txt')
+js failed:
+>>>>
+01: read('classpath:data.txt')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data.txt
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:7
+14:12:15.207 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:7
+* def userNameValues = read('classpath:data.txt')
+js failed:
+>>>>
+01: read('classpath:data.txt')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data.txt
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:7
+14:12:15.386 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:7
+* def userNameValues = read('classpath:data.txt')
+js failed:
+>>>>
+01: read('classpath:data.txt')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data.txt
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:7
+14:12:15.436 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:7
+* def userNameValues = read('classpath:data.txt')
+js failed:
+>>>>
+01: read('classpath:data.txt')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data.txt
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:7
+14:14:59.433 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:15:00.554 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 1109
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: b81ad49c1eef96f8717c3ea229dc3e8e;o=1
+1 < Date: Mon, 14 Aug 2023 19:15:00 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:15:00.605 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:15:00.909 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 303
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8962ef4d7f24e13738d5a84f840cda40
+1 < Date: Mon, 14 Aug 2023 19:15:00 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:15:00.948 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:15:01.261 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 312
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 9c79356c72fc2cf93d96717c402b7a5b
+1 < Date: Mon, 14 Aug 2023 19:15:01 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:15:01.337 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:15:01.628 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 289
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f296ef77a3b804842a1059c0d8a36dc6
+1 < Date: Mon, 14 Aug 2023 19:15:01 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:15:01.698 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:15:02.015 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 309
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: f4a1199598f7276701d63d47ce36c294
+1 < Date: Mon, 14 Aug 2023 19:15:02 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:18:16.182 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:18:16.768 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 577
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 23b8ee3ea95a17e2d467359cb835d05b
+1 < Date: Mon, 14 Aug 2023 19:18:16 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:18:16.819 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:18:17.124 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 304
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 6fbfb0da49cf91be312df86a48fcdbaa
+1 < Date: Mon, 14 Aug 2023 19:18:17 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:18:17.199 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:18:17.490 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 290
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 0bfe7e5b929ece64afe9db7a0e9e44fc
+1 < Date: Mon, 14 Aug 2023 19:18:17 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:18:17.552 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:18:17.866 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 313
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 4c895c9b392d041dffdc9156bf312430
+1 < Date: Mon, 14 Aug 2023 19:18:17 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:18:17.918 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:18:18.284 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 365
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 0c3d524c78fe93882d6d815dcdc1b784
+1 < Date: Mon, 14 Aug 2023 19:18:18 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:19:34.932 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:19:35.515 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 572
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: d086db6aaf87dcf34dedba4111f79a67
+1 < Date: Mon, 14 Aug 2023 19:19:35 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:19:35.573 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:19:35.860 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 286
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: b4470f5939e9cf11ab4d77209ae60f3e
+1 < Date: Mon, 14 Aug 2023 19:19:35 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:19:35.886 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:19:36.154 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 267
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 86e439b67cecd1b4539fa7f1a88d9ca1
+1 < Date: Mon, 14 Aug 2023 19:19:36 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:19:36.189 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:19:36.469 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: a68f5b5d050c34d7c4ed36401b2a5d7e
+1 < Date: Mon, 14 Aug 2023 19:19:36 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:19:36.486 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:19:36.763 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: e7481b06254b628e1b510a785e1400bb
+1 < Date: Mon, 14 Aug 2023 19:19:36 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:20:48.585 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:20:49.333 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 738
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f5251f730cbf78e83eb103bc48348c27
+1 < Date: Mon, 14 Aug 2023 19:20:49 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:20:49.406 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:20:49.704 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 295
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 21aac9bd34f3ab8ec3ae40adca525e8b
+1 < Date: Mon, 14 Aug 2023 19:20:49 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:20:49.795 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:20:50.102 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 305
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 4cc6efe305a059bfd546bf285811c7a9
+1 < Date: Mon, 14 Aug 2023 19:20:50 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:20:50.143 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:20:50.431 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 287
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 6924832409077aee7d90089e20a615ab
+1 < Date: Mon, 14 Aug 2023 19:20:50 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:20:50.489 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:20:50.817 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 327
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: f0490db2a1c3c0e2c69581bd9a567900
+1 < Date: Mon, 14 Aug 2023 19:20:50 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:21:38.002 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:21:38.586 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 574
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 17d3b339e424339ec990091319f162fb
+1 < Date: Mon, 14 Aug 2023 19:21:38 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:21:38.666 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:21:38.959 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f4663767e0678add30e34e806e4d1a39
+1 < Date: Mon, 14 Aug 2023 19:21:38 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:21:39.012 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:21:39.289 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 827a805ffa2b639db4a863e3f087920a
+1 < Date: Mon, 14 Aug 2023 19:21:39 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:21:39.346 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:21:39.625 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 55d468c7dffaff6b1a51f8514535acec
+1 < Date: Mon, 14 Aug 2023 19:21:39 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:21:39.677 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:21:39.959 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 281
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 2f110f55d725279c36c6164fa820e77e
+1 < Date: Mon, 14 Aug 2023 19:21:39 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:21:53.281 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:20
+And request {"username": '#('usernameValue') , "password": "asfghgdssdg"}
+net.minidev.json.parser.ParseException: Unexpected token u at position 16.
+classpath:api/login/login.feature:20
+14:21:53.376 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:20
+And request {"username": '#('usernameValue') , "password": "asfghgdssdg"}
+net.minidev.json.parser.ParseException: Unexpected token u at position 16.
+classpath:api/login/login.feature:20
+14:21:53.460 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:20
+And request {"username": '#('usernameValue') , "password": "asfghgdssdg"}
+net.minidev.json.parser.ParseException: Unexpected token u at position 16.
+classpath:api/login/login.feature:20
+14:21:54.091 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:21:54.762 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 655
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 242020d7aebb1ea322d6f81c097cb0cb;o=1
+1 < Date: Mon, 14 Aug 2023 19:21:54 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:21:54.828 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:21:55.105 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 274
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 2eb5c245ed27ca1806f8af58789ba926
+1 < Date: Mon, 14 Aug 2023 19:21:55 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:21:55.177 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:21:55.515 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 337
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 5c528a0dc81d0b57c101683d372865da
+1 < Date: Mon, 14 Aug 2023 19:21:55 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:21:55.565 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:21:55.845 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 3412c1cad9df0ec0e4db75b92a513e31
+1 < Date: Mon, 14 Aug 2023 19:21:55 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:21:55.892 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:21:56.162 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 269
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: c1a91fa642e3f03d870fbaaf98cb82be
+1 < Date: Mon, 14 Aug 2023 19:21:56 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:22:18.796 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:19
+And def usernameValue = usernameValue = usernameValues[__row - 1]
+js failed:
+>>>>
+01: usernameValue = usernameValues[__row - 1]
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "usernameValues" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:19
+14:22:18.842 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:19
+And def usernameValue = usernameValue = usernameValues[__row - 1]
+js failed:
+>>>>
+01: usernameValue = usernameValues[__row - 1]
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "usernameValues" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:19
+14:22:18.923 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:19
+And def usernameValue = usernameValue = usernameValues[__row - 1]
+js failed:
+>>>>
+01: usernameValue = usernameValues[__row - 1]
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "usernameValues" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:api/login/login.feature:19
+14:22:19.522 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:22:20.163 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 636
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: c19e2c9982b721b6a44a7faaeba10162
+1 < Date: Mon, 14 Aug 2023 19:22:20 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:22:20.206 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:22:20.482 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: eb79856a14f98cbe57b097aaee1e9bb2
+1 < Date: Mon, 14 Aug 2023 19:22:20 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:22:20.557 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:22:20.871 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 308
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 6772c550400ea16b3684a3a6243626ea
+1 < Date: Mon, 14 Aug 2023 19:22:20 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:22:20.894 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:22:21.176 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 281
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: ac5711eff84f7a952a1fa04cf843ae56
+1 < Date: Mon, 14 Aug 2023 19:22:21 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:22:21.204 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:22:21.482 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 277
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 7967c391a863e4db01eaa28ef05c7f91
+1 < Date: Mon, 14 Aug 2023 19:22:21 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:32:32.548 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:20
+And request {"username": '#('usernameValue') , "password": "asfghgdssdg"}
+net.minidev.json.parser.ParseException: Unexpected token u at position 16.
+classpath:api/login/login.feature:20
+14:32:33.195 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:32:34.505 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 1306
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 785708fdfc925cb60da0d65e45f166a8
+1 < Date: Mon, 14 Aug 2023 19:32:34 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:32:34.663 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:32:34.985 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 319
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 011f8793f2d153cc7bb6447844c3b702
+1 < Date: Mon, 14 Aug 2023 19:32:34 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:32:35.033 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:32:35.330 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 297
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: fdc8663d11f948523332b27ead7e052b
+1 < Date: Mon, 14 Aug 2023 19:32:35 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:32:35.377 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:32:35.686 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 308
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 639ab34b0f8d0cfc352d978cf64d5557
+1 < Date: Mon, 14 Aug 2023 19:32:35 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:32:35.706 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:32:35.980 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 273
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: faadea0158f211a8afefaabb93785428
+1 < Date: Mon, 14 Aug 2023 19:32:35 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:32:55.758 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:19
+And request {"username": '#('usernameValue') , "password": "asfghgdssdg"}
+net.minidev.json.parser.ParseException: Unexpected token u at position 16.
+classpath:api/login/login.feature:19
+14:32:56.193 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:32:56.753 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 553
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 15bb85480f247b157f6d680662a8b697;o=1
+1 < Date: Mon, 14 Aug 2023 19:32:56 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:32:56.821 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:32:57.146 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 324
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 731f7fc6f5be55298c5fda7d2edd0e51
+1 < Date: Mon, 14 Aug 2023 19:32:57 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:32:57.208 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:32:57.509 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 300
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 69b49159f52aa7b2e1e16ee023100df3
+1 < Date: Mon, 14 Aug 2023 19:32:57 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:32:57.554 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:32:57.851 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 295
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f5e046ef3128a9202bb8514c514f9998
+1 < Date: Mon, 14 Aug 2023 19:32:57 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:32:57.891 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:32:58.190 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 296
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 5c33dded8bb7f13103c910999b51063c
+1 < Date: Mon, 14 Aug 2023 19:32:58 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:35:08.509 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:19
+And request {"username": '#(usernameValue) , "password": "asfghgdssdg"}
+net.minidev.json.parser.ParseException: Unexpected End Of File position 59: null
+classpath:api/login/login.feature:19
+14:35:09.028 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:35:09.683 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 647
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 2c68b2c73fff27d28bef3978e20230d7
+1 < Date: Mon, 14 Aug 2023 19:35:09 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:35:09.761 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:35:10.069 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 305
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 943fd3cf76b0b095ac13177482ff1535
+1 < Date: Mon, 14 Aug 2023 19:35:10 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:35:10.161 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:35:10.438 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: fd632b373e8aba9ca4e48c4ed0d5a5b3
+1 < Date: Mon, 14 Aug 2023 19:35:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:35:10.513 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:35:10.839 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 323
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 23422e6a494f3296f19412866aa4743f
+1 < Date: Mon, 14 Aug 2023 19:35:10 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:35:10.887 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:35:11.175 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 287
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: da908975ba0572e3f1f4390d0847792a
+1 < Date: Mon, 14 Aug 2023 19:35:11 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:35:56.395 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:35:56.980 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 571
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: acdf76c25b222284402ccaaf45fbc0e2
+1 < Date: Mon, 14 Aug 2023 19:35:56 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0MQ=="
+
+
+14:35:57.049 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:35:57.325 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 273
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 845f18cdfb8697f3406d32b6970d2605
+1 < Date: Mon, 14 Aug 2023 19:35:57 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:35:57.414 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:35:57.721 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 299
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: c76b8133328282251e36d0367e2fe47b
+1 < Date: Mon, 14 Aug 2023 19:35:57 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:35:57.757 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:35:58.108 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 349
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: eea3d52568b2bbf2745fbe5e0ed84318
+1 < Date: Mon, 14 Aug 2023 19:35:58 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:35:58.159 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:35:58.442 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 275
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 960cb20e0e6851f854956fe309070f87
+1 < Date: Mon, 14 Aug 2023 19:35:58 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:35:58.463 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:35:58.745 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 280
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 50a371a42c9147caf039caa3bafc21e5
+1 < Date: Mon, 14 Aug 2023 19:35:58 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:36:14.048 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:36:14.650 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 589
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: eab55a67bd664f504d89a519843dcc95
+1 < Date: Mon, 14 Aug 2023 19:36:14 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0MQ=="
+
+
+14:36:14.728 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:36:15.009 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 6686969f9499b4d40ab1c3fcade613ac
+1 < Date: Mon, 14 Aug 2023 19:36:14 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:36:15.069 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:36:15.417 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 346
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8f9171236f54afe53fd315bcdc12569f
+1 < Date: Mon, 14 Aug 2023 19:36:15 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:36:15.461 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:36:15.861 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 398
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 416ad16d95a018ede7f1a61eeb342caf
+1 < Date: Mon, 14 Aug 2023 19:36:15 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:36:15.928 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:36:16.316 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 378
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: a183a002072d72e279fd68c30b28907d
+1 < Date: Mon, 14 Aug 2023 19:36:16 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:36:16.349 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:36:16.604 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 254
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: d88dc80a2b16a8d7b7ce8749b7d057dd
+1 < Date: Mon, 14 Aug 2023 19:36:16 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:36:47.802 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:36:48.528 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 715
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: ba06db44b8df0b612b4fa9e5636787b9
+1 < Date: Mon, 14 Aug 2023 19:36:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0MQ=="
+
+
+14:36:48.588 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:36:48.917 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 328
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8dd9c143838afbe62d07e7d013a92f1c
+1 < Date: Mon, 14 Aug 2023 19:36:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:36:48.996 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
+
+14:36:49.308 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 311
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 1addc1994dae4ebd7b37f292084cfb88
+1 < Date: Mon, 14 Aug 2023 19:36:49 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:36:49.356 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:36:49.685 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 328
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 5bb74c4e4bcb3038ee712c80ba4272ce
+1 < Date: Mon, 14 Aug 2023 19:36:49 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:36:49.720 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:36:50.006 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 284
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: bce39aa4cf6e5b7a90311776a118797f
+1 < Date: Mon, 14 Aug 2023 19:36:49 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:36:50.041 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:36:50.317 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 276
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: ca770b1c8c42ed39bc7083001b122074
+1 < Date: Mon, 14 Aug 2023 19:36:50 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:42:02.783 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:03.201 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:42:03.946 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 739
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 799de8320f32e3f1def5cee6ef169e49
+1 < Date: Mon, 14 Aug 2023 19:42:03 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0Mg=="
+
+
+14:42:04.001 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:04.006 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:42:04.311 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 305
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 64a33a7f9d7602736be4c179f5ce35a5
+1 < Date: Mon, 14 Aug 2023 19:42:04 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:42:04.392 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:04.397 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:42:04.717 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 318
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: dc05ffc4934cfd21a4e6b033373b01cb
+1 < Date: Mon, 14 Aug 2023 19:42:04 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:42:04.724 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:43
+And match $ == {"errorMessage": "Wrong password."}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'errorMessage' (MAP:MAP)
+  {"errorMessage":"User does not exist."}
+  {"errorMessage":"Wrong password."}
+
+    $.errorMessage | not equal (STRING:STRING)
+    'User does not exist.'
+    'Wrong password.'
+
+classpath:api/login/login.feature:43
+14:42:04.768 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:04.774 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:42:05.078 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 304
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 5428bfe5016e2fa74dc7c45979ba19eb
+1 < Date: Mon, 14 Aug 2023 19:42:05 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:42:05.124 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:05.129 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:42:05.406 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 276
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 398431485f168ccf6df229285d682f5f
+1 < Date: Mon, 14 Aug 2023 19:42:05 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:42:05.464 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:05.473 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:42:05.780 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 306
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 03f4108581db01127762e9cc8543cdb5
+1 < Date: Mon, 14 Aug 2023 19:42:05 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:42:34.960 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:35.356 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:42:35.893 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 534
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 755bb91b9ca1d97d1f597898a5bde923
+1 < Date: Mon, 14 Aug 2023 19:42:35 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0Mg=="
+
+
+14:42:35.944 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:35.948 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:42:36.237 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 287
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: fd033f1de80da927779cf2679cb78a4b
+1 < Date: Mon, 14 Aug 2023 19:42:36 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:42:36.313 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:36.430 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"#(wrongPassword)"}
+
+14:42:36.727 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 296
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: cf71e9dd9832265c0ccded0384a2e1a8
+1 < Date: Mon, 14 Aug 2023 19:42:36 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:42:36.743 [Test worker] ERROR com.intuit.karate - classpath:api/login/login.feature:43
+And match $ == {"errorMessage": "Wrong password."}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'errorMessage' (MAP:MAP)
+  {"errorMessage":"User does not exist."}
+  {"errorMessage":"Wrong password."}
+
+    $.errorMessage | not equal (STRING:STRING)
+    'User does not exist.'
+    'Wrong password.'
+
+classpath:api/login/login.feature:43
+14:42:36.826 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:36.833 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:42:37.181 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: ba59fb3e377679afc3d87b31b62b0fc4;o=1
+1 < Date: Mon, 14 Aug 2023 19:42:37 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:42:37.223 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:37.228 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:42:37.536 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 308
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 61f4966abbff87621134c5cc960fa92b
+1 < Date: Mon, 14 Aug 2023 19:42:37 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:42:37.634 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:42:37.639 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:42:37.941 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 300
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 263e2b01b864a0b1eb0d8748f272d3d9
+1 < Date: Mon, 14 Aug 2023 19:42:37 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:43:04.145 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:43:04.523 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:43:05.090 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 563
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: fbcdf860ba3858e9ad13cecc0bb4f7de
+1 < Date: Mon, 14 Aug 2023 19:43:05 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0Mg=="
+
+
+14:43:05.154 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:43:05.158 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:43:05.461 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 303
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 6b8fff0713fc0375facdc7bb0e046556
+1 < Date: Mon, 14 Aug 2023 19:43:05 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:43:05.531 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:43:05.557 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 63
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"#(wrongPassword)"}
+
+14:43:05.861 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 303
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 961148abc61772117616ff15ae5bb2a0
+1 < Date: Mon, 14 Aug 2023 19:43:05 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:43:05.911 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:43:05.916 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:43:06.209 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: e51d383320360811d14d05b74971ddf4
+1 < Date: Mon, 14 Aug 2023 19:43:06 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:43:06.285 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:43:06.290 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:43:06.591 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 298
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: fe21a22cf5d343bfabfdec2c9078bf4b
+1 < Date: Mon, 14 Aug 2023 19:43:06 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:43:06.685 [Test worker] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'wrongUser' with new value: 'BryanAlexFreire123%'
+14:43:06.689 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:43:06.970 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: bebbc2419c4cb834bc46767594f2e089
+1 < Date: Mon, 14 Aug 2023 19:43:06 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:44:07.670 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:44:08.482 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 801
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 4b0bf1306917418db9c3e010515807f0;o=1
+1 < Date: Mon, 14 Aug 2023 19:44:08 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0Mg=="
+
+
+14:44:08.537 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:44:08.847 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 309
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 049707916e62ca964f16cc39ac94dd30
+1 < Date: Mon, 14 Aug 2023 19:44:08 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:44:08.877 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfgh1dssdg"}
+
+14:44:09.207 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 330
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 72e32f645596a892a2adfaf490b6a3be
+1 < Date: Mon, 14 Aug 2023 19:44:09 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:44:09.238 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:44:09.568 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 329
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: dfe7b565e244595b64ce989b816c8844
+1 < Date: Mon, 14 Aug 2023 19:44:09 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:44:09.617 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:44:09.918 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 300
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 948f71302985c69212d62a8d558c6e7f
+1 < Date: Mon, 14 Aug 2023 19:44:09 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:44:09.981 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:44:10.297 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 314
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 38f989000e6ed5d1c53369a9dfa9b2b4
+1 < Date: Mon, 14 Aug 2023 19:44:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:47:00.309 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:47:00.881 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 564
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: e8883b1a5d5ffe35f0796fe4ae85402b;o=1
+1 < Date: Mon, 14 Aug 2023 19:47:00 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0Mg=="
+
+
+14:47:00.932 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:47:01.219 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 284
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 229c1fe4aed308c95066392ed420d599
+1 < Date: Mon, 14 Aug 2023 19:47:01 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:47:01.262 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfgh1dssdg"}
+
+14:47:01.535 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 272
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: b4eb7163ef7ec02cf725b8ee821fbba1
+1 < Date: Mon, 14 Aug 2023 19:47:01 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:47:01.569 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:47:01.854 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 284
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 5c0edc4097dbed266489dea24ab9cb57
+1 < Date: Mon, 14 Aug 2023 19:47:01 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:47:01.929 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:47:02.241 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 308
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 114a0365fa53492060c188b729853d2d
+1 < Date: Mon, 14 Aug 2023 19:47:02 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:47:02.286 [Test worker] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:47:02.596 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 307
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: 0d0617e4e0569bf4be28d3703ba18a05
+1 < Date: Mon, 14 Aug 2023 19:47:02 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:55:44.125 [Test worker] INFO  com.intuit.karate.Suite - backed up existing 'build\karate-reports' dir to: build\karate-reports_1692042944118
+14:55:44.144 [Test worker] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+14:55:46.995 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+
+14:55:46.995 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
+
+14:55:46.995 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":"asfghgdssdg"}
+
+14:55:46.995 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":"asfgh1dssdg"}
+
+14:55:47.926 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 926
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 5f8388f1dbb8d30b62d616270deed572
+1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+
+
+14:55:47.926 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 915
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 59721c8ec530b05cfc34f6d6f0f9c09e
+1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:55:47.926 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 923
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: b80d4bc3a919083c48bcb75f251644ed
+1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:55:47.941 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 944
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 157dd40e6cbe5a5cd0cc22fa92c5b7f0
+1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0Mg=="
+
+
+14:55:47.991 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"1ryanAlexFreire123","password":"asfghgdssdg"}
+
+14:55:48.013 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"BryanAlexFreire123","password":""}
+
+14:55:48.023 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 29
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"","password":""}
+
+14:55:48.027 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 > Accept-Encoding: gzip,deflate
+{"username":"newUser","password":"newPassword"}
+
+14:55:48.303 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 279
+1 < 500
+1 < Content-Type: text/html
+1 < X-Cloud-Trace-Context: ca69fb2ce2b975c481ecb49a45169352
+1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 290
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+14:55:48.344 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 330
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: a46f60633c03ff0f986a127293708e8d
+1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"Wrong password."}
+
+
+14:55:48.366 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 338
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 2e44ecd438127df8139e90ba41aa6adc
+1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+14:55:48.642 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 640
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: ac757264cbdcedb3fae7cbf04693e4c5
+1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+
+14:55:53.539 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:api/login/login.feature
+14:55:53.758 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:api/signUp/signUp.feature

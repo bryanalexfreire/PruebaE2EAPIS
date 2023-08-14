@@ -1,26 +1,16 @@
-ë13:26:33.987 [Test worker] INFO  com.intuit.karate.Suite - backed up existing 'build\karate-reports' dir to: build\karate-reports_1692037593937
-_13:26:34.023 [Test worker] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
-B13:26:36.361 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+ë14:55:44.125 [Test worker] INFO  com.intuit.karate.Suite - backed up existing 'build\karate-reports' dir to: build\karate-reports_1692042944118
+_14:55:44.144 [Test worker] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+B14:55:46.995 [pool-1-thread-1] DEBUG com.intuit.karate - request:
 )1 > POST https://api.demoblaze.com/login
 21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 40
+1 > Content-Length: 58
 1 > Host: api.demoblaze.com
 1 > Connection: Keep-Alive
 31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 "1 > Accept-Encoding: gzip,deflate
-){"username":"","password":"asfghgdssdg"}
+;{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
 
-B13:26:36.361 [pool-1-thread-3] DEBUG com.intuit.karate - request:
-)1 > POST https://api.demoblaze.com/login
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 59
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-<{"username":"BryanAlexFreire123","password":"asfghgdssdg1"}
-
-B13:26:36.361 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+B14:55:46.995 [pool-1-thread-2] DEBUG com.intuit.karate - request:
 )1 > POST https://api.demoblaze.com/login
 21 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 59
@@ -30,7 +20,17 @@
 "1 > Accept-Encoding: gzip,deflate
 <{"username":"BryanAlexFreire123%","password":"asfghgdssdg"}
 
-B13:26:36.361 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+B14:55:46.995 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+)1 > POST https://api.demoblaze.com/login
+21 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 40
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+"1 > Accept-Encoding: gzip,deflate
+){"username":"","password":"asfghgdssdg"}
+
+B14:55:46.995 [pool-1-thread-3] DEBUG com.intuit.karate - request:
 )1 > POST https://api.demoblaze.com/login
 21 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 58
@@ -38,13 +38,37 @@
 1 > Connection: Keep-Alive
 31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 "1 > Accept-Encoding: gzip,deflate
-;{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
+;{"username":"BryanAlexFreire123","password":"asfgh1dssdg"}
 
-\13:26:36.946 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 582
+\14:55:47.926 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 926
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 5f8388f1dbb8d30b62d616270deed572
+(1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+({"errorMessage":"User does not exist."}
+
+
+\14:55:47.926 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 915
+1 < 200
+#1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 59721c8ec530b05cfc34f6d6f0f9c09e
+(1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+#{"errorMessage":"Wrong password."}
+
+
+\14:55:47.926 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 923
 1 < 500
 1 < Content-Type: text/html
-<1 < X-Cloud-Trace-Context: 4304f608a55603c58e132740ff610466
-(1 < Date: Mon, 14 Aug 2023 18:26:36 GMT
+<1 < X-Cloud-Trace-Context: b80d4bc3a919083c48bcb75f251644ed
+(1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
 1 < Server: Google Frontend
 1 < Content-Length: 290
 8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
@@ -53,43 +77,19 @@
 ¢<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
 
 
-\13:26:36.947 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 581
+\14:55:47.941 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 944
 1 < 200
 #1 < Content-Type: application/json
 1 < Vary: Accept-Encoding
-<1 < X-Cloud-Trace-Context: f0f1f47f24c7c734eb79315b618da966
-(1 < Date: Mon, 14 Aug 2023 18:26:36 GMT
+<1 < X-Cloud-Trace-Context: 157dd40e6cbe5a5cd0cc22fa92c5b7f0
+(1 < Date: Mon, 14 Aug 2023 19:55:47 GMT
 1 < Server: Google Frontend
 1 < Cache-Control: private
 1 < Transfer-Encoding: chunked
-({"errorMessage":"User does not exist."}
+3"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjY0Mg=="
 
 
-\13:26:36.946 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 581
-1 < 200
-#1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-<1 < X-Cloud-Trace-Context: 765f9318f8c2b105277b256f29392566
-(1 < Date: Mon, 14 Aug 2023 18:26:36 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-#{"errorMessage":"Wrong password."}
-
-
-\13:26:36.972 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 602
-1 < 200
-#1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-@1 < X-Cloud-Trace-Context: e128a39ac3179fdffdf83ed70b4f5209;o=1
-(1 < Date: Mon, 14 Aug 2023 18:26:36 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-3"Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjYzNw=="
-
-
-B13:26:37.174 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+B14:55:47.991 [pool-1-thread-1] DEBUG com.intuit.karate - request:
 *1 > POST https://api.demoblaze.com/signup
 21 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 58
@@ -97,19 +97,9 @@
 1 > Connection: Keep-Alive
 31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 "1 > Accept-Encoding: gzip,deflate
-;{"username":"12rya5Freire%123as","password":"asfghgdssdg"}
+;{"username":"1ryanAlexFreire123","password":"asfghgdssdg"}
 
-B13:26:37.188 [pool-1-thread-4] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 58
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-;{"username":"BryanAlexFreire123","password":"asfghgdssdg"}
-
-B13:26:37.190 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+B14:55:48.013 [pool-1-thread-2] DEBUG com.intuit.karate - request:
 )1 > POST https://api.demoblaze.com/login
 21 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 47
@@ -119,7 +109,7 @@
 "1 > Accept-Encoding: gzip,deflate
 0{"username":"BryanAlexFreire123","password":""}
 
-B13:26:37.202 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+B14:55:48.023 [pool-1-thread-4] DEBUG com.intuit.karate - request:
 )1 > POST https://api.demoblaze.com/login
 21 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 29
@@ -129,33 +119,21 @@
 "1 > Accept-Encoding: gzip,deflate
 {"username":"","password":""}
 
-\13:26:37.487 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 298
-1 < 200
-#1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-<1 < X-Cloud-Trace-Context: bba71123641d236754d6a83b56742115
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-,{"errorMessage":"This user already exist."}
-
-
-B13:26:37.504 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+B14:55:48.027 [pool-1-thread-3] DEBUG com.intuit.karate - request:
 *1 > POST https://api.demoblaze.com/signup
 21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 51
+1 > Content-Length: 47
 1 > Host: api.demoblaze.com
 1 > Connection: Keep-Alive
 31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 "1 > Accept-Encoding: gzip,deflate
-4{"username":"1ryan2Ale5reire147sasd","password":""}
+0{"username":"newUser","password":"newPassword"}
 
-\13:26:37.508 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 301
+\14:55:48.303 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 279
 1 < 500
 1 < Content-Type: text/html
-<1 < X-Cloud-Trace-Context: d0897132d260a3a7da4083fd4bedccdf
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
+<1 < X-Cloud-Trace-Context: ca69fb2ce2b975c481ecb49a45169352
+(1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
 1 < Server: Google Frontend
 1 < Content-Length: 290
 8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
@@ -164,179 +142,35 @@
 ¢<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
 
 
-B13:26:37.524 [pool-1-thread-2] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 40
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-){"username":"","password":"asfghgdssdg"}
-
-\13:26:37.527 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 336
+\14:55:48.344 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 330
 1 < 200
 #1 < Content-Type: application/json
 1 < Vary: Accept-Encoding
-<1 < X-Cloud-Trace-Context: 303537f36b817864722d5641568d86d5
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
+<1 < X-Cloud-Trace-Context: a46f60633c03ff0f986a127293708e8d
+(1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
 1 < Server: Google Frontend
 1 < Cache-Control: private
 1 < Transfer-Encoding: chunked
 #{"errorMessage":"Wrong password."}
 
 
-B13:26:37.539 [pool-1-thread-1] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 29
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-{"username":"","password":""}
-
-\13:26:37.556 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 381
+\14:55:48.366 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 338
 1 < 200
 #1 < Content-Type: application/json
-<1 < X-Cloud-Trace-Context: 491335cf54c333ab3f274bbb39da66b8
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
+1 < Vary: Accept-Encoding
+<1 < X-Cloud-Trace-Context: 2e44ecd438127df8139e90ba41aa6adc
+(1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
 1 < Server: Google Frontend
-1 < Content-Length: 3
-""
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+,{"errorMessage":"This user already exist."}
 
 
-B13:26:37.595 [pool-1-thread-3] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 91
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-\{"username":"1was23uiop23d569jkl√±zxcvb23qwertyuoipasdfghjkl√±123","password":"sayfgb2387"}
-
-\13:26:37.825 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 301
-1 < 500
-1 < Content-Type: text/html
-<1 < X-Cloud-Trace-Context: 18d8d296e0b96debcd875d7e528715be
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 290
-8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-)<title>500 Internal Server Error</title>
-<h1>Internal Server Error</h1>
-¢<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
-
-
-B13:26:37.843 [pool-1-thread-2] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 90
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-[{"username":"1129854ag","password":"qwertyu12pasdfghjkl√±asdvbnmqwertyuoip34dfghjkl√±zxc"}
-
-\13:26:37.853 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 314
-1 < 500
-1 < Content-Type: text/html
-<1 < X-Cloud-Trace-Context: c83ec0bec7c2310fdb986ed56d58733a
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 290
-8<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-)<title>500 Internal Server Error</title>
-<h1>Internal Server Error</h1>
-¢<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
-
-
-\13:26:37.854 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 349
+\14:55:48.642 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 640
 1 < 200
 #1 < Content-Type: application/json
-<1 < X-Cloud-Trace-Context: 7cf31f2e9b01f9d692294d882126e03e
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 3
-""
-
-
-B13:26:37.868 [pool-1-thread-4] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 102
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-g{"username":"1sfg9854%&$1\/","password":"q12rtyuiopasdfg23kl√±zxasdfmqwertyuoipasdfghjkl√±zxc&%$124a"}
-
-B13:26:37.873 [pool-1-thread-1] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 145
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-í{"username":"1wertyuio98dd56h12l√±zxcvbnmq45ertyuoipasdfghjkl√±zxcqwertyuiopasdfghjkl√±zxcvbnmqwertyuoipasdfghjkl√±z123","password":"sayfgb2387"}
-
-\13:26:37.945 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 349
-1 < 200
-#1 < Content-Type: application/json
-<1 < X-Cloud-Trace-Context: 74af7fc09cfd4515bad8b7314f698fc7
-(1 < Date: Mon, 14 Aug 2023 18:26:37 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 3
-""
-
-
-B13:26:37.958 [pool-1-thread-3] DEBUG com.intuit.karate - request:
-*1 > POST https://api.demoblaze.com/signup
-21 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 108
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-31 > User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-"1 > Accept-Encoding: gzip,deflate
-m{"username":"1fa8656354%&$1","password":"asd556wertyuiopasdf\/&jkl√±zxcvbnmqwertyuoipasdfghjkl√±zxc&%$124a"}
-
-\13:26:38.211 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 337
-1 < 200
-#1 < Content-Type: application/json
-<1 < X-Cloud-Trace-Context: ff13a43c93ce53dea78098c428fd5ac1
-(1 < Date: Mon, 14 Aug 2023 18:26:38 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 3
-""
-
-
-\13:26:38.220 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 376
-1 < 200
-#1 < Content-Type: application/json
-<1 < X-Cloud-Trace-Context: 16a8281c3dc17bf832b9b7e5b2c48ec0
-(1 < Date: Mon, 14 Aug 2023 18:26:38 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 3
-""
-
-
-\13:26:38.231 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 362
-1 < 200
-#1 < Content-Type: application/json
-<1 < X-Cloud-Trace-Context: 270a66bb5358eb3cc54181439b51de20
-(1 < Date: Mon, 14 Aug 2023 18:26:38 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 3
-""
-
-
-\13:26:38.336 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 378
-1 < 200
-#1 < Content-Type: application/json
-<1 < X-Cloud-Trace-Context: 9de3864e4307518eb310b563eb8a1ac6
-(1 < Date: Mon, 14 Aug 2023 18:26:38 GMT
+<1 < X-Cloud-Trace-Context: ac757264cbdcedb3fae7cbf04693e4c5
+(1 < Date: Mon, 14 Aug 2023 19:55:48 GMT
 1 < Server: Google Frontend
 1 < Content-Length: 3
 ""
@@ -344,28 +178,28 @@
 
 :---------------------------------------------------------
 +feature: classpath:api/login/login.feature
-7scenarios:  6 | passed:  6 | failed:  0 | time: 5,5705
+7scenarios:  6 | passed:  6 | failed:  0 | time: 6,4987
 :---------------------------------------------------------
 
-à13:26:40.420 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:api/login/login.feature
+à14:55:53.539 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:api/login/login.feature
 :---------------------------------------------------------
 -feature: classpath:api/signUp/signUp.feature
-7scenarios: 10 | passed: 10 | failed:  0 | time: 3,5990
+7scenarios:  2 | passed:  2 | failed:  0 | time: 1,0301
 :---------------------------------------------------------
 
-ä13:26:40.940 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:api/signUp/signUp.feature
+ä14:55:53.758 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:api/signUp/signUp.feature
 Karate version: 1.2.0.RC5
 8======================================================
-6elapsed:   9,11 | threads:    4 | thread time: 9,17 
-4features:     2 | skipped:    0 | efficiency: 0,25
--scenarios:   16 | passed:    16 | failed: 0
+6elapsed:  11,63 | threads:    4 | thread time: 7,53 
+4features:     2 | skipped:    0 | efficiency: 0,16
+-scenarios:    8 | passed:     8 | failed: 0
 8======================================================
 
 FHTML report: (paste into browser to view) | Karate version: 1.2.0.RC5
 [file:///C:/Users/bryan/IdeaProjects/PruebaE2EAPIS/build/karate-reports/karate-summary.html
 D===================================================================
 
- Tago 14, 2023 1:26:42 P.¬†M. net.masterthought.cucumber.ReportParser parseJsonFiles
+ Tago 14, 2023 2:55:59 P.¬†M. net.masterthought.cucumber.ReportParser parseJsonFiles
  vINFO: File 'C:\Users\bryan\IdeaProjects\PruebaE2EAPIS\build\karate-reports\api.login.login.json' contains 1 features
- Tago 14, 2023 1:26:42 P.¬†M. net.masterthought.cucumber.ReportParser parseJsonFiles
+ Tago 14, 2023 2:55:59 P.¬†M. net.masterthought.cucumber.ReportParser parseJsonFiles
  xINFO: File 'C:\Users\bryan\IdeaProjects\PruebaE2EAPIS\build\karate-reports\api.signUp.signUp.json' contains 1 features
