@@ -13,7 +13,7 @@ Feature: Signup an user in website
 
   Scenario: Signup a new user
     Given url urlBase + path
-    And request {"username": "B2rya5Freire%123as", "password": "asfghgdssdg"}
+    And request {"username": "22rya5Freire%123as", "password": "asfghgdssdg"}
     When method post
     Then status 200
     And match response != {"errorMessage": "This user already exist."}
@@ -27,7 +27,7 @@ Feature: Signup an user in website
 
   Scenario: Signup a new user without password
     Given url urlBase + path
-    And request {"username": "Bryan2Ale5reire147sasd", "password": ""}
+    And request {"username": "2ryan2Ale5reire147sasd", "password": ""}
     When method post
     Then status 200
     And match response != {"errorMessage": "This user already exist."}
@@ -48,35 +48,35 @@ Feature: Signup an user in website
 
   Scenario: Valid a new user with 50 characters in username
     Given url urlBase + path
-    And request {"username": "qwas23uiop23d569jklñzxcvb23qwertyuoipasdfghjklñ123", "password": "sayfgb2387"}
+    And request {"username": "2was23uiop23d569jklñzxcvb23qwertyuoipasdfghjklñ123", "password": "sayfgb2387"}
     When method post
     Then status 200
     And match response != {"errorMessage": "This user already exist."}
 
   Scenario: Valid a new user with 50 characters in password
     Given url urlBase + path
-    And request {"username": "as129854ag", "password": "qwertyu12pasdfghjklñasdvbnmqwertyuoip34dfghjklñzxc"}
+    And request {"username": "2129854ag", "password": "qwertyu12pasdfghjklñasdvbnmqwertyuoip34dfghjklñzxc"}
     When method post
     Then status 200
     And match response != {"errorMessage": "This user already exist."}
 
   Scenario: Valid a new user with 100 characters in username
     Given url urlBase + path
-    And request {"username": "qwertyuio98dd56h12lñzxcvbnmq45ertyuoipasdfghjklñzxcqwertyuiopasdfghjklñzxcvbnmqwertyuoipasdfghjklñz123", "password": "sayfgb2387"}
+    And request {"username": "2wertyuio98dd56h12lñzxcvbnmq45ertyuoipasdfghjklñzxcqwertyuiopasdfghjklñzxcvbnmqwertyuoipasdfghjklñz123", "password": "sayfgb2387"}
     When method post
     Then status 200
     And match response != {"errorMessage": "This user already exist."}
 
   Scenario: Valid a new user with 100 characters in password
     Given url urlBase + path
-    And request {"username": "asfg9854%&$1/", "password": "q12rtyuiopasdfg23klñzxasdfmqwertyuoipasdfghjklñzxc&%$124a"}
+    And request {"username": "2sfg9854%&$1/", "password": "q12rtyuiopasdfg23klñzxasdfmqwertyuoipasdfghjklñzxc&%$124a"}
     When method post
     Then status 200
     And match response != {"errorMessage": "This user already exist."}
 
   Scenario: Signup a new user with special characteres
     Given url urlBase + path
-    And request {"username": "asfa8656354%&$1", "password": "asd556wertyuiopasdf/&jklñzxcvbnmqwertyuoipasdfghjklñzxc&%$124a"}
+    And request {"username": "2fa8656354%&$1", "password": "asd556wertyuiopasdf/&jklñzxcvbnmqwertyuoipasdfghjklñzxc&%$124a"}
     When method post
     Then status 200
     And match response != {"errorMessage": "This user already exist."}

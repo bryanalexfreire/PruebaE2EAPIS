@@ -65,6 +65,25 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.ManagmentTest">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/api/login/login.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Prueba_APIS.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Login without user and valid password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/api/login/login.feature" />
@@ -152,6 +171,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ManagmentTest" />
+        <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="Cucumber Java.Scenario: Signup a new user without password" />
         <item itemvalue="Cucumber Java.Scenario: Signup a new user" />
         <item itemvalue="Cucumber Java.Scenario: Login without user and valid password" />

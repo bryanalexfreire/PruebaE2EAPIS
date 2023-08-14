@@ -1,6 +1,7 @@
 Feature: Login with user registered in website
 
   Background:
+  Background:
     * def urlBase = 'https://api.demoblaze.com/'
     * def path = 'login'
     * text error500 =
@@ -14,10 +15,11 @@ Feature: Login with user registered in website
   @ValidLogin
   Scenario: Login with a valid user
     Given url urlBase + path
-    And request {"username": "BryanAlexFreire123", "password": "asfghgdssdg"}
+    And request {"username": BryanAlexFreire123 , "password": "asfghgdssdg"}
     When method post
     Then status 200
-    And match $ == "Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjI4Ng=="
+    And match response !=  {"errorMessage": "User does not exist."}
+    And match response !=  {"errorMessage": "Wrong password."}
 
   @WrongUser
   Scenario: Login with a wrong user

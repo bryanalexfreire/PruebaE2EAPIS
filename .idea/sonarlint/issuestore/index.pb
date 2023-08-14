@@ -13,9 +13,11 @@ Z
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 A
 PruebaE2EAPIS.iml,e\0\e0265e7909d16be16d44246f4cf896ceb4f90962
+Y
+)target/karate-reports/karate-summary.html,d\d\dd740bc54356931a6fcf1a1191eb7e73350b161d
+U
+%src/test/java/api/login/login.feature,a\b\ab34550b8aed601af3b3c04dfce7d27dca0a1f37
 P
  src/test/java/ManagmentTest.java,d\a\da281e0d611f16d094bb6718af4d38a82a563e3c
 W
 'src/test/java/api/signUp/signUp.feature,1\7\17030d7af18964a52fbc9fa6b2ecd9f36f466cc0
-U
-%src/test/java/api/login/login.feature,a\b\ab34550b8aed601af3b3c04dfce7d27dca0a1f37

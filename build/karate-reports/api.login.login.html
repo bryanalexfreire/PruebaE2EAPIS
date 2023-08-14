@@ -36,28 +36,28 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2023-08-10 11:53:17 a. m.</div>
+    <div>2023-08-14 01:26:37 p. m.</div>
   </div>        
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:15]"><span>[1:15]</span> <span>Login with a valid user</span></a>
+            <a href="#[1:16]"><span>[1:16]</span> <span>Login with a valid user</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2:23]"><span>[2:23]</span> <span>Login with a wrong user</span></a>
+            <a href="#[2:25]"><span>[2:25]</span> <span>Login with a wrong user</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[3:31]"><span>[3:31]</span> <span>Login with a wrong password</span></a>
+            <a href="#[3:33]"><span>[3:33]</span> <span>Login with a wrong password</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[4:39]"><span>[4:39]</span> <span>Login without user and valid password</span></a>
+            <a href="#[4:41]"><span>[4:41]</span> <span>Login without user and valid password</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[5:47]"><span>[5:47]</span> <span>Login without password and valid user</span></a>
+            <a href="#[5:49]"><span>[5:49]</span> <span>Login without password and valid user</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[6:55]"><span>[6:55]</span> <span>Login with empty fields</span></a>
+            <a href="#[6:57]"><span>[6:57]</span> <span>Login with empty fields</span></a>
           </div>
         </div>
       </div>
@@ -71,57 +71,29 @@
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:15]">
+          <div class="scenario-heading" id="[1:16]">
             <div class="heading-container">
               <div class="scenario-tags">
                 <a class="badge badge-primary" href="karate-tags.html">ValidLogin</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:15]</span>
+                Scenario: <span>[1:16]</span>
                 <span class="scenario-name">Login with a valid user</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1283</span>
+              <span>ms:</span>&nbsp;<span>1153</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:15]bg">
+            <div class="step-container" id="[1:16]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:15]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref bg-step">4</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">6</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div data-parent="[1:15]bg"><div>
+          <div data-parent="[1:16]bg"><div>
   
 
   
@@ -131,10 +103,10 @@
       <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
+        <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -149,7 +121,7 @@
 
 </div>
 </div>
-          <div data-parent="[1:15]bg"><div>
+          <div data-parent="[1:16]bg"><div>
   
 
   
@@ -159,15 +131,43 @@
       <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>text error500 =</span>
+        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.6">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>text error500 =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.7">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
 &lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</div>
@@ -186,8 +186,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.16">
-      <div class="step-ref passed">16</div>
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>url urlBase + path</span>
@@ -214,14 +214,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.17">
-      <div class="step-ref passed">17</div>
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: BryanAlexFreire123 , &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">72</div>
+    <div class="time-cell passed">74</div>
   </div>
 
    
@@ -242,14 +242,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.18">
-      <div class="step-ref passed">18</div>
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">1184</div>
+    <div class="time-cell passed">1008</div>
   </div>
 
    
@@ -258,7 +258,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.18">11:53:16.353 request:
+  <div class="preformatted" data-parent="0.19">13:26:36.370 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 58
@@ -268,16 +268,16 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-11:53:17.164 response time in milliseconds: 809
+13:26:36.973 response time in milliseconds: 602
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 35cdb8d848566d9f21dd706f30786a13
-1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
+1 &lt; X-Cloud-Trace-Context: e128a39ac3179fdffdf83ed70b4f5209;o=1
+1 &lt; Date: Mon, 14 Aug 2023 18:26:36 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
-&quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjI4Ng==&quot;
+&quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjYzNw==&quot;
 
 
 </div>   
@@ -292,8 +292,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.19">
-      <div class="step-ref passed">19</div>
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -320,14 +320,42 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.20">
-      <div class="step-ref passed">20</div>
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match $ == &quot;Auth_token: QnJ5YW5BbGV4RnJlaXJlMTIzMTY5MjI4Ng==&quot;</span>
+        <span>And</span>&nbsp;<span>match response !=  {&quot;errorMessage&quot;: &quot;User does not exist.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">45</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response !=  {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -344,36 +372,36 @@
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2:23]">
+          <div class="scenario-heading" id="[2:25]">
             <div class="heading-container">
               <div class="scenario-tags">
                 <a class="badge badge-primary" href="karate-tags.html">WrongUser</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2:23]</span>
+                Scenario: <span>[2:25]</span>
                 <span class="scenario-name">Login with a wrong user</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1258</span>
+              <span>ms:</span>&nbsp;<span>1158</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2:23]bg">
+            <div class="step-container" id="[2:25]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2:23]bg"><div>
+          <div data-parent="[2:25]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref bg-step">4</div>
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
@@ -394,14 +422,14 @@
 
 </div>
 </div>
-          <div data-parent="[2:23]bg"><div>
+          <div data-parent="[2:25]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.5">
-      <div class="step-ref bg-step">5</div>
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
@@ -422,84 +450,28 @@
 
 </div>
 </div>
-          <div data-parent="[2:23]bg"><div>
+          <div data-parent="[2:25]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref bg-step">6</div>
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>text error500 =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.6">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+  <div class="preformatted" data-parent="0.7">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
 &lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</div>
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.24">
-      <div class="step-ref passed">24</div>
-      
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url urlBase + path</span>
-      </div>
-    </div>
-    <div class="time-cell passed">19</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.25">
-      <div class="step-ref passed">25</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123%&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">71</div>
-  </div>
-
-   
-  
-  
 
   
 
@@ -519,10 +491,10 @@
       <div class="step-ref passed">26</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method post</span>
+        <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">1139</div>
+    <div class="time-cell passed">24</div>
   </div>
 
    
@@ -531,29 +503,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.26">11:53:16.345 request:
-1 &gt; POST https://api.demoblaze.com/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 59
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;BryanAlexFreire123%&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
-
-11:53:17.120 response time in milliseconds: 774
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 2f2c67af04e2fd5b5571115a2f576238
-1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;User does not exist.&quot;}
-
-
-</div>   
+     
 
   
 
@@ -569,10 +519,10 @@
       <div class="step-ref passed">27</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123%&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">74</div>
   </div>
 
    
@@ -597,205 +547,10 @@
       <div class="step-ref passed">28</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;User does not exist.&quot;}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">24</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-        </div>
-        <div class="scenario">
-          <div class="scenario-heading" id="[3:31]">
-            <div class="heading-container">
-              <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">WrongPassword</a>
-              </div>
-              <div class="scenario-keyword">
-                Scenario: <span>[3:31]</span>
-                <span class="scenario-name">Login with a wrong password</span>
-                <span></span>
-              </div>
-            </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1254</span>
-            </div>
-          </div>
-          <div class="step-row">
-            <div class="step-container" id="[3:31]bg">
-              <div class="step-ref bg-step">&gt;&gt;</div>
-              <div class="step-cell passed">Background:</div>
-            </div>
-            <div class="time-cell passed"></div>
-          </div>
-          <div data-parent="[3:31]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref bg-step">4</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">4</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div data-parent="[3:31]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.5">
-      <div class="step-ref bg-step">5</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">8</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div data-parent="[3:31]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref bg-step">6</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>text error500 =</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1</div>
-  </div>
-
-   
-  
-  <div class="preformatted" data-parent="0.6">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
-&lt;title&gt;500 Internal Server Error&lt;/title&gt;
-&lt;h1&gt;Internal Server Error&lt;/h1&gt;
-&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</div>
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.32">
-      <div class="step-ref passed">32</div>
-      
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url urlBase + path</span>
-      </div>
-    </div>
-    <div class="time-cell passed">11</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.33">
-      <div class="step-ref passed">33</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;asfghgdssdg1&quot;}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">72</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.34">
-      <div class="step-ref passed">34</div>
-      
-      <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">1139</div>
+    <div class="time-cell passed">990</div>
   </div>
 
    
@@ -804,7 +559,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.34">11:53:16.344 request:
+  <div class="preformatted" data-parent="0.28">13:26:36.365 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 59
@@ -812,18 +567,18 @@
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg1&quot;}
+{&quot;username&quot;:&quot;BryanAlexFreire123%&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-11:53:17.120 response time in milliseconds: 775
+13:26:36.949 response time in milliseconds: 581
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 286a92b12237cda55d67f4c7acdfbadf
-1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
+1 &lt; X-Cloud-Trace-Context: f0f1f47f24c7c734eb79315b618da966
+1 &lt; Date: Mon, 14 Aug 2023 18:26:36 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+{&quot;errorMessage&quot;:&quot;User does not exist.&quot;}
 
 
 </div>   
@@ -838,8 +593,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.35">
-      <div class="step-ref passed">35</div>
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -866,14 +621,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.36">
-      <div class="step-ref passed">36</div>
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
+        <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;User does not exist.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">19</div>
+    <div class="time-cell passed">63</div>
   </div>
 
    
@@ -890,42 +645,42 @@
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[4:39]">
+          <div class="scenario-heading" id="[3:33]">
             <div class="heading-container">
               <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">WithoutUser</a>
+                <a class="badge badge-primary" href="karate-tags.html">WrongPassword</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[4:39]</span>
-                <span class="scenario-name">Login without user and valid password</span>
+                Scenario: <span>[3:33]</span>
+                <span class="scenario-name">Login with a wrong password</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1333</span>
+              <span>ms:</span>&nbsp;<span>1165</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[4:39]bg">
+            <div class="step-container" id="[3:33]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[4:39]bg"><div>
+          <div data-parent="[3:33]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref bg-step">4</div>
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -940,7 +695,252 @@
 
 </div>
 </div>
-          <div data-parent="[4:39]bg"><div>
+          <div data-parent="[3:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>text error500 =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.7">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url urlBase + path</span>
+      </div>
+    </div>
+    <div class="time-cell passed">33</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;asfghgdssdg1&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">75</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">986</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">13:26:36.364 request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;asfghgdssdg1&quot;}
+
+13:26:36.950 response time in milliseconds: 581
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 765f9318f8c2b105277b256f29392566
+1 &lt; Date: Mon, 14 Aug 2023 18:26:36 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">63</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:41]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">WithoutUser</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:41]</span>
+                <span class="scenario-name">Login without user and valid password</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1290</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:41]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:41]bg"><div>
   
 
   
@@ -948,6 +948,34 @@
   <div class="step-row">
     <div class="step-container" id="0.5">
       <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
@@ -968,84 +996,28 @@
 
 </div>
 </div>
-          <div data-parent="[4:39]bg"><div>
+          <div data-parent="[4:41]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref bg-step">6</div>
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>text error500 =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.6">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+  <div class="preformatted" data-parent="0.7">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
 &lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</div>
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.40">
-      <div class="step-ref passed">40</div>
-      
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url urlBase + path</span>
-      </div>
-    </div>
-    <div class="time-cell passed">19</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.41">
-      <div class="step-ref passed">41</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">73</div>
-  </div>
-
-   
-  
-  
 
   
 
@@ -1065,10 +1037,10 @@
       <div class="step-ref passed">42</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method post</span>
+        <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">1116</div>
+    <div class="time-cell passed">24</div>
   </div>
 
    
@@ -1077,7 +1049,63 @@
 
   
 
-  <div class="preformatted" data-parent="0.42">11:53:16.346 request:
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref passed">43</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;&quot;, &quot;password&quot;: &quot;asfghgdssdg&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">76</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">985</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.44">13:26:36.362 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 40
@@ -1087,11 +1115,11 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;asfghgdssdg&quot;}
 
-11:53:17.094 response time in milliseconds: 743
+13:26:36.947 response time in milliseconds: 582
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: e951dec4c49d22882017be225dce0161
-1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
+1 &lt; X-Cloud-Trace-Context: 4304f608a55603c58e132740ff610466
+1 &lt; Date: Mon, 14 Aug 2023 18:26:36 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
@@ -1112,8 +1140,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.43">
-      <div class="step-ref passed">43</div>
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 500</span>
@@ -1140,14 +1168,14 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.44">
-      <div class="step-ref passed">44</div>
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $ == error500</span>
       </div>
     </div>
-    <div class="time-cell passed">120</div>
+    <div class="time-cell passed">199</div>
   </div>
 
    
@@ -1164,39 +1192,67 @@
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[5:47]">
+          <div class="scenario-heading" id="[5:49]">
             <div class="heading-container">
               <div class="scenario-tags">
                 <a class="badge badge-primary" href="karate-tags.html">WithoutPassword</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[5:47]</span>
+                Scenario: <span>[5:49]</span>
                 <span class="scenario-name">Login without password and valid user</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>410</span>
+              <span>ms:</span>&nbsp;<span>408</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[5:47]bg">
+            <div class="step-container" id="[5:49]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[5:47]bg"><div>
+          <div data-parent="[5:49]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref bg-step">4</div>
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:49]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -1214,42 +1270,14 @@
 
 </div>
 </div>
-          <div data-parent="[5:47]bg"><div>
+          <div data-parent="[5:49]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.5">
-      <div class="step-ref bg-step">5</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div data-parent="[5:47]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref bg-step">6</div>
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>text error500 =</span>
@@ -1260,66 +1288,10 @@
 
    
   
-  <div class="preformatted" data-parent="0.6">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+  <div class="preformatted" data-parent="0.7">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
 &lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</div>
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.48">
-      <div class="step-ref passed">48</div>
-      
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url urlBase + path</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.49">
-      <div class="step-ref passed">49</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;&quot;}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
 
   
 
@@ -1339,10 +1311,10 @@
       <div class="step-ref passed">50</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method post</span>
+        <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">408</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1351,29 +1323,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.50">11:53:17.157 request:
-1 &gt; POST https://api.demoblaze.com/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 47
-1 &gt; Host: api.demoblaze.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;&quot;}
-
-11:53:17.558 response time in milliseconds: 400
-1 &lt; 200
-1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 008834c376bc2d1b22ba325d3f50b8fe
-1 &lt; Date: Thu, 10 Aug 2023 16:53:18 GMT
-1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
-
-
-</div>   
+     
 
   
 
@@ -1389,7 +1339,7 @@
       <div class="step-ref passed">51</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;BryanAlexFreire123&quot;, &quot;password&quot;: &quot;&quot;}</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -1417,7 +1367,57 @@
       <div class="step-ref passed">52</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">400</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.52">13:26:37.191 request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;BryanAlexFreire123&quot;,&quot;password&quot;:&quot;&quot;}
+
+13:26:37.527 response time in milliseconds: 336
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 303537f36b817864722d5641568d86d5
+1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -1435,41 +1435,17 @@
 
 </div>
 </div>
-        </div>
-        <div class="scenario">
-          <div class="scenario-heading" id="[6:55]">
-            <div class="heading-container">
-              <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">EmptyFields</a>
-              </div>
-              <div class="scenario-keyword">
-                Scenario: <span>[6:55]</span>
-                <span class="scenario-name">Login with empty fields</span>
-                <span></span>
-              </div>
-            </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>355</span>
-            </div>
-          </div>
-          <div class="step-row">
-            <div class="step-container" id="[6:55]bg">
-              <div class="step-ref bg-step">&gt;&gt;</div>
-              <div class="step-cell passed">Background:</div>
-            </div>
-            <div class="time-cell passed"></div>
-          </div>
-          <div data-parent="[6:55]bg"><div>
+          <div><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref bg-step">4</div>
+    <div class="step-container" id="0.54">
+      <div class="step-ref passed">54</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
+        <span>And</span>&nbsp;<span>match $ == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -1487,7 +1463,31 @@
 
 </div>
 </div>
-          <div data-parent="[6:55]bg"><div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[6:57]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">EmptyFields</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[6:57]</span>
+                <span class="scenario-name">Login with empty fields</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>396</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[6:57]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[6:57]bg"><div>
   
 
   
@@ -1497,10 +1497,10 @@
       <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
+        <span>*</span>&nbsp;<span>def urlBase = &#39;https://api.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -1515,7 +1515,7 @@
 
 </div>
 </div>
-          <div data-parent="[6:55]bg"><div>
+          <div data-parent="[6:57]bg"><div>
   
 
   
@@ -1525,74 +1525,46 @@
       <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:57]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
         <span>*</span>&nbsp;<span>text error500 =</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">74</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.6">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+  <div class="preformatted" data-parent="0.7">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
 &lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;</div>
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.56">
-      <div class="step-ref passed">56</div>
-      
-      <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url urlBase + path</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.57">
-      <div class="step-ref passed">57</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;&quot;, &quot;password&quot;: &quot;&quot;}</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
 
   
 
@@ -1612,10 +1584,10 @@
       <div class="step-ref passed">58</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method post</span>
+        <span>Given</span>&nbsp;<span>url urlBase + path</span>
       </div>
     </div>
-    <div class="time-cell passed">349</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -1624,7 +1596,63 @@
 
   
 
-  <div class="preformatted" data-parent="0.58">11:53:17.178 request:
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;&quot;, &quot;password&quot;: &quot;&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">308</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.60">13:26:37.206 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 29
@@ -1634,11 +1662,11 @@
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
 
-11:53:17.524 response time in milliseconds: 345
+13:26:37.508 response time in milliseconds: 301
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 7b069573a0ee9768c66e04efccf0be1c
-1 &lt; Date: Thu, 10 Aug 2023 16:53:17 GMT
+1 &lt; X-Cloud-Trace-Context: d0897132d260a3a7da4083fd4bedccdf
+1 &lt; Date: Mon, 14 Aug 2023 18:26:37 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
@@ -1659,8 +1687,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.59">
-      <div class="step-ref passed">59</div>
+    <div class="step-container" id="0.61">
+      <div class="step-ref passed">61</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 500</span>
@@ -1687,8 +1715,8 @@
   
 
   <div class="step-row">
-    <div class="step-container" id="0.60">
-      <div class="step-ref passed">60</div>
+    <div class="step-container" id="0.62">
+      <div class="step-ref passed">62</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $ == error500</span>
