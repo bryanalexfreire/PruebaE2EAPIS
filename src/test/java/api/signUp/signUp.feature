@@ -5,7 +5,8 @@ Feature: Signup an user in website
     * def urlBase = 'https://api.demoblaze.com/'
     * def path = 'signup'
     #Params for be used in scenaries
-    * def newUser = '2ryanAlexFreire123'
+    #newUser - change this value always you gonna run this test case
+    * def newUser = '3ryanAlexFreire123'
     * def newPassword = 'asfghgdssdg'
 
   Scenario: Signup a new user
